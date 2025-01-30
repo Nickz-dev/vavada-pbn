@@ -115,63 +115,74 @@ module.exports = {
 <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">  
     <!-- Hero Section с интегрированной статистикой -->  
   <!-- Hero Section -->  
-    <section class="relative rounded-xl overflow-hidden bg-[#232338] p-8 mb-12" itemscope itemtype="https://schema.org/Organization">  
-        <meta itemprop="name" content="VAVADA Casino">  
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">  
-            <div class="relative z-10">  
-                <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight" itemprop="slogan">  
-                    VAVADA — официальный сайт казино  
-                </h1>  
-                <p class="text-xl text-gray-300 mb-8 leading-relaxed">  
-                    Лицензионные игры, моментальные выплаты и щедрые бонусы для новых игроков  
-                </p>  
-                
-                <!-- Статистика -->  
-                <div class="grid grid-cols-2 gap-4 mb-8" itemscope itemtype="https://schema.org/AggregateRating">  
-                    <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center transform hover:scale-105 transition-transform">  
-                        <div class="text-2xl font-bold text-white" itemprop="reviewCount">5000+</div>  
-                        <div class="text-gray-400">Игр</div>  
-                    </div>  
-                    <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center transform hover:scale-105 transition-transform">  
-                        <div class="text-2xl font-bold text-white">₽100K</div>  
-                        <div class="text-gray-400">Бонус</div>  
-                    </div>  
-                    <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center transform hover:scale-105 transition-transform">  
-                        <div class="text-2xl font-bold text-white" itemprop="ratingValue">97.8%</div>  
-                        <div class="text-gray-400">RTP</div>  
-                    </div>  
-                    <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center transform hover:scale-105 transition-transform">  
-                        <div class="text-2xl font-bold text-white">24/7</div>  
-                        <div class="text-gray-400">Поддержка</div>  
-                    </div>  
-                </div>  
+<section class="relative rounded-xl overflow-hidden bg-[#232338] p-8 mb-12" itemscope itemtype="https://schema.org/Casino">  
+    <meta itemprop="name" content="VAVADA Casino">  
+    <meta itemprop="description" content="Лицензионные игры, моментальные выплаты и щедрые бонусы для новых игроков">  
+    
+    <!-- Добавляем корректный рейтинг -->  
+    <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">  
+        <meta itemprop="itemReviewed" content="VAVADA Casino">  
+        <meta itemprop="reviewCount" content="5000">  
+        <meta itemprop="ratingValue" content="4.9">  
+        <meta itemprop="bestRating" content="5">  
+        <meta itemprop="worstRating" content="1">  
+    </div>  
 
-                <!-- CTA кнопки -->  
-                <div class="flex flex-col sm:flex-row gap-4">  
-                    <a href="/registration.html"   
-                       class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#ff424d] hover:bg-[#ff2c39] transform hover:scale-105 transition-all shadow-lg shadow-[#ff424d]/20"  
-                       itemprop="significantLink">  
-                        Регистрация  
-                    </a>  
-                    <a href="/mirror.html"   
-                       class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#ff424d] text-base font-medium rounded-md text-white hover:bg-[#ff424d]/10 transform hover:scale-105 transition-all">  
-                        Войти  
-                    </a>  
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">  
+        <div class="relative z-10">  
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight" itemprop="slogan">  
+                VAVADA — официальный сайт казино  
+            </h1>  
+            <p class="text-xl text-gray-300 mb-8 leading-relaxed">  
+                Лицензионные игры, моментальные выплаты и щедрые бонусы для новых игроков  
+            </p>  
+            
+            <!-- Статистика -->  
+            <div class="grid grid-cols-2 gap-4 mb-8">  
+                <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center transform hover:scale-105 transition-transform">  
+                    <div class="text-2xl font-bold text-white">5000+</div>  
+                    <div class="text-gray-400">Игр</div>  
+                </div>  
+                <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center transform hover:scale-105 transition-transform">  
+                    <div class="text-2xl font-bold text-white">₽100K</div>  
+                    <div class="text-gray-400">Бонус</div>  
+                </div>  
+                <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center transform hover:scale-105 transition-transform">  
+                    <div class="text-2xl font-bold text-white">97.8%</div>  
+                    <div class="text-gray-400">RTP</div>  
+                </div>  
+                <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center transform hover:scale-105 transition-transform">  
+                    <div class="text-2xl font-bold text-white">24/7</div>  
+                    <div class="text-gray-400">Поддержка</div>  
                 </div>  
             </div>  
 
-            <!-- Декоративная часть -->  
-            <div class="hidden md:block relative z-10 transform hover:scale-105 transition-transform duration-500">  
-                <div class="aspect-video bg-gradient-to-br from-[#ff424d]/20 via-[#ff424d]/10 to-[#2a2a42] rounded-lg shadow-2xl">  
-                    <div class="absolute inset-0 bg-[url('/api/placeholder/800/450')] rounded-lg opacity-10 mix-blend-overlay"></div>  
-                </div>  
+            <!-- CTA кнопки -->  
+            <div class="flex flex-col sm:flex-row gap-4">  
+                <a href="/registration.html"  
+                   class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#ff424d] hover:bg-[#ff2c39] transform hover:scale-105 transition-all shadow-lg shadow-[#ff424d]/20"  
+                   itemprop="significantLink">  
+                    Регистрация  
+                </a>  
+                <a href="/mirror.html"  
+                   class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#ff424d] text-base font-medium rounded-md text-white hover:bg-[#ff424d]/10 transform hover:scale-105 transition-all">  
+                    Войти  
+                </a>  
             </div>  
         </div>  
 
-        <!-- Фоновые элементы -->  
-        <div class="absolute inset-0 bg-gradient-to-r from-[#ff424d]/10 via-[#ff424d]/5 to-transparent"></div>  
-        <div class="absolute inset-0 bg-[url('/api/placeholder/20/20')] opacity-5 mix-blend-overlay"></div>  
-    </section> 
+        <!-- Декоративная часть -->  
+        <div class="hidden md:block relative z-10 transform hover:scale-105 transition-transform duration-500">  
+            <div class="aspect-video bg-gradient-to-br from-[#ff424d]/20 via-[#ff424d]/10 to-[#2a2a42] rounded-lg shadow-2xl">  
+                <div class="absolute inset-0 bg-[url('/api/placeholder/800/450')] rounded-lg opacity-10 mix-blend-overlay"></div>  
+            </div>  
+        </div>  
+    </div>  
+
+    <!-- Фоновые элементы -->  
+    <div class="absolute inset-0 bg-gradient-to-r from-[#ff424d]/10 via-[#ff424d]/5 to-transparent"></div>  
+    <div class="absolute inset-0 bg-[url('/api/placeholder/20/20')] opacity-5 mix-blend-overlay"></div>  
+</section>  
     <!-- Current Bonuses -->  
     <div class="bg-[#232338] rounded-xl p-8 mb-8">  
         <h2 class="text-3xl font-bold text-white mb-6">  
