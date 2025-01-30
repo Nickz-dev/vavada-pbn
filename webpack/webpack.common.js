@@ -88,7 +88,7 @@ module.exports = {
       chunks: ["casino"],
     }),
     new SitemapWebpackPlugin({
-      baseUrl: "https://Домен.com",
+      baseUrl: "https://x-vavada.ru",
       publicDir: path.resolve(__dirname, "../public"),
       outputPath: path.resolve(__dirname, "../dist/sitemap.xml"),
       changefreq: "daily",
