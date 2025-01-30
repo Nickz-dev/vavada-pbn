@@ -198,54 +198,59 @@ class PageGenerator {
   }
 
   generateBasePage(pageData) {
-    const mountId = pageData.mountId || this.config.mountId || "gama";
+    const mountId = pageData.mountId || this.config.mountId || "vavada";
+    const dataLink =
+      pageData.dataLink ||
+      this.config.defaultLink ||
+      "https://partnervavadarv.com/?promo=0a20713e-f26a-491b-853c-b92607f104dd&target=register";
 
     return `  
-            <!DOCTYPE html>  
-            <html lang="ru">  
-            <head>  
-                ${this.generateMetaTags(pageData)}  
-                <title>${pageData.title}</title>  
-                
-                <!-- Favicon -->  
-                <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">  
-                <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">  
-                <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">  
-                <link rel="manifest" href="/site.webmanifest">  
-                
-                <!-- Styles -->  
-                <script src="https://cdn.tailwindcss.com"></script>  
-                ${pageData.additionalStyles || ""}  
+        <!DOCTYPE html>  
+        <html lang="ru">  
+        <head>  
+            ${this.generateMetaTags(pageData)}  
+            <title>${pageData.title}</title>  
+            
+            <!-- Favicon -->  
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">  
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">  
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">  
+            <link rel="manifest" href="/site.webmanifest">  
+            
+            <!-- Styles -->  
+            <script src="https://cdn.tailwindcss.com"></script>  
+            ${pageData.additionalStyles || ""}  
 
-                <!-- Bot Detection -->  
-                ${this.generateBotDetectionScript(mountId)}  
-            </head>  
-            <body class="bg-gray-100">  
-                <!-- React Mount Point with Data Link -->  
-                <div class="container mx-auto px-4 py-8 max-w-7xl"   
-                     id="${mountId}"   
-                     data-link="${pageData.dataLink}">  
-                    <!-- Static Content -->  
-                    ${pageData.staticContent || ""}  
-                </div>  
+            <!-- Bot Detection -->  
+            ${this.generateBotDetectionScript(mountId)}  
+        </head>  
+        <body class="bg-gray-100">  
+            <!-- React Mount Point with Data Link -->  
+            <div class="container mx-auto px-4 py-8 max-w-7xl"  
+                 id="${mountId}"  
+                 data-link="${dataLink}">  
+                <!-- Static Content -->  
+                ${pageData.staticContent || ""}  
+            </div>  
 
-                <!-- Page Configuration -->  
-                <script>  
-                    window.PAGE_CONFIG = {  
-                        pageId: "${pageData.id}",  
-                        type: "${pageData.type}",  
-                        mountId: "${mountId}",  
-                        environment: "${process.env.NODE_ENV}"  
-                    };  
-                </script>  
+            <!-- Page Configuration -->  
+            <script>  
+                window.PAGE_CONFIG = {  
+                    pageId: "${pageData.id}",  
+                    type: "${pageData.type}",  
+                    mountId: "${mountId}",  
+                    environment: "${process.env.NODE_ENV}",  
+                    dataLink: "${dataLink}"  
+                };  
+            </script>  
 
-                <!-- Webpack Bundles -->  
-                ${this.getScriptTags()}  
-            </body>  
-            </html>  
-        `;
+            <!-- Webpack Bundles -->  
+            ${this.getScriptTags()}  
+        </body>  
+        </html>  
+    `;
   }
-
+  
   generateMirrorCheckScript() {
     return `  
         <script>  
