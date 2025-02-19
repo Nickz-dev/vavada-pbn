@@ -1,25 +1,25 @@
 module.exports = {  
-    defaultDomain: "x-vavada.ru",  
+    defaultDomain: "krustovavada.com",  
     mirrors: [  
       "1-vavada.ru",  
       "2-vavada.ru",  
       "3-vavada.ru",  
     ],  
     mountId: "vavada",
-    defaultLink: "https://partnervavadarv.com/?promo=0a20713e-f26a-491b-853c-b92607f104dd&target=register",   
+    defaultLink: "https://vavada.c-wn.ru",   
     pages: [  
       {  
         id: "index",  
         filename: "index",  
         title: "VAVADA (ВАВАДА) - Официальный сайт казино | Бонусы 2024",  
         description: "VAVADA Casino - официальный сайт казино. Бонусы до 100000₽, быстрая регистрация, более 5000 лицензионных слотов. Надежное онлайн казино с быстрыми выплатами.",  
-        dataLink: "https://partnervavadarv.com/?promo=0a20713e-f26a-491b-853c-b92607f104dd&target=register",
+        dataLink: "https://vavada.c-wn.ru",
         keywords: "VAVADA, ВАВАДА, вавада казино, vavada casino, официальный сайт вавада, vavada com",  
-        canonical: "https://x-vavada.ru",  
-        ogImage: "https://x-vavada.ru/images/og-image.jpg",  
+        canonical: "https://krustovavada.com",  
+        ogImage: "https://krustovavada.com/images/og-image.jpg",  
         type: "main",  
         hreflangs: {  
-          "x-default": "https://x-vavada.ru",   
+          "x-default": "https://krustovavada.com",   
         }, 
       staticContent: `  
       <div class="flex flex-col min-h-screen">  
@@ -704,13 +704,13 @@ module.exports = {
         filename: "mirrors",  
         title: "Зеркало VAVADA (ВАВАДА) - Рабочее зеркало казино | Доступ 2025",  
         description: "Актуальное зеркало казино VAVADA ✓ Рабочие ссылки для доступа к официальному сайту ✓ Круглосуточный вход без блокировок",
-        dataLink: "https://partnervavadarv.com/?promo=0a20713e-f26a-491b-853c-b92607f104dd&target=register",  
+        dataLink: "https://vavada-c-wn.ru",  
         keywords: "зеркало вавада, vavada зеркало, рабочее зеркало вавада, актуальное зеркало vavada, вход вавада",  
-        canonical: "https://x-vavada.ru/mirrors",  
-        ogImage: "https://x-vavada.ru/images/og-mirrors.jpg",  
+        canonical: "https://krustovavada.com/mirrors",  
+        ogImage: "https://krustovavada.com/images/og-mirrors.jpg",  
         type: "mirrors",  
         hreflangs: {  
-          "x-default": "https://x-vavada.ru/mirrors",   
+          "x-default": "https://krustovavada.com/mirrors",   
         },  
         staticContent: `  
  <div class="flex flex-col min-h-screen">  
@@ -1082,13 +1082,13 @@ module.exports = {
         filename: "bonuses",  
         title: "Бонусы VAVADA 2025 - Приветственный бонус 100 000₽ | Программа лояльности",  
         description: "Актуальные бонусы казино VAVADA ✓ Приветственный пакет до 100 000₽ ✓ Кэшбэк до 10% ✓ Фриспины за регистрацию ✓ Программа лояльности",  
-        dataLink: "https://partnervavadarv.com/?promo=0a20713e-f26a-491b-853c-b92607f104dd&target=register",
+        dataLink: "https://vavada.c-wn.ru",
         keywords: "бонусы вавада, vavada бонус, приветственный бонус вавада, фриспины vavada, кэшбэк вавада",  
-        canonical: "https://x-vavada.ru/bonuses",  
-        ogImage: "https://x-vavada.ru/images/og-bonuses.jpg",  
+        canonical: "https://krustovavada.com/bonuses",  
+        ogImage: "https://krustovavada.com/images/og-bonuses.jpg",  
         type: "bonuses",  
         hreflangs: {  
-            "x-default": "https://x-vavada.ru/bonuses",  
+            "x-default": "https://krustovavada.com/bonuses",  
         },
         staticContent: ` 
         <div class="flex flex-col min-h-screen">  
@@ -1461,13 +1461,13 @@ module.exports = {
         filename: "slots",  
         title: "Игровые автоматы VAVADA - 5000+ слотов от топовых провайдеров",  
         description: "Лицензионные игровые автоматы VAVADA ✓ Более 5000 слотов от ведущих провайдеров ✓ Высокий RTP ✓ Демо-режим без регистрации", 
-        dataLink: "https://partnervavadarv.com/?promo=0a20713e-f26a-491b-853c-b92607f104dd&target=register", 
+        dataLink: "https://vavada.c-wn.ru", 
         keywords: "слоты вавада, игровые автоматы vavada, автоматы вавада онлайн, демо слоты vavada",  
-        canonical: "https://x-vavada.ru/slots",  
-        ogImage: "https://x-vavada.ru/images/og-slots.jpg",  
+        canonical: "https://krustovavada.com/slots",  
+        ogImage: "https://krustovavada.com/images/og-slots.jpg",  
         type: "slots",  
         hreflangs: {  
-            "x-default": "https://x-vavada.ru/slots",  
+            "x-default": "https://krustovavada.com/slots",  
         },
         staticContent: ` 
          <div class="flex flex-col min-h-screen">  
@@ -1995,13 +1995,13 @@ module.exports = {
         filename: "payments",  
         title: "Платежные методы VAVADA - Депозиты и вывод средств | Быстрые выплаты",  
         description: "Методы оплаты в казино VAVADA ✓ Мгновенные депозиты ✓ Быстрые выплаты ✓ Криптовалюта ✓ Банковские карты ✓ Электронные кошельки", 
-        dataLink: "https://partnervavadarv.com/?promo=0a20713e-f26a-491b-853c-b92607f104dd&target=register",
+        dataLink: "https://vavada.c-wn.ru",
         keywords: "вавада депозит, вывод vavada, платежные методы вавада, пополнение vavada",  
-        canonical: "https://x-vavada.ru/payments",  
-        ogImage: "https://x-vavada.ru/images/og-payments.jpg",  
+        canonical: "https://krustovavada.com/payments",  
+        ogImage: "https://krustovavada.com/images/og-payments.jpg",  
         type: "payments",  
         hreflangs: {  
-            "x-default": "https://x-vavada.ru/payments",  
+            "x-default": "https://krustovavada.com/payments",  
         },
         staticContent: `
          <div class="flex flex-col min-h-screen">  
@@ -2487,13 +2487,13 @@ module.exports = {
         filename: "registration",  
         title: "Регистрация в VAVADA - Создать аккаунт | Бонус за регистрацию",  
         description: "Регистрация в казино VAVADA за 1 минуту ✓ Бонус 100 000₽ за создание аккаунта ✓ Простая верификация ✓ Быстрый вход в личный кабинет", 
-        dataLink: "https://partnervavadarv.com/?promo=0a20713e-f26a-491b-853c-b92607f104dd&target=register", 
+        dataLink: "https://vavada.c-wn.ru", 
         keywords: "регистрация вавада, создать аккаунт vavada, вавада вход, регистрация vavada казино",  
-        canonical: "https://x-vavada.ru/registration",  
-        ogImage: "https://x-vavada.ru/images/og-registration.jpg",  
+        canonical: "https://krustovavada.com/registration",  
+        ogImage: "https://krustovavada.com/images/og-registration.jpg",  
         type: "registration",  
         hreflangs: {  
-            "x-default": "https://x-vavada.ru/registration",  
+            "x-default": "https://krustovavada.com/registration",  
         },
         staticContent: ` 
          <div class="flex flex-col min-h-screen">  
@@ -2882,13 +2882,13 @@ module.exports = {
         filename: "faq",  
         title: "FAQ VAVADA - Ответы на частые вопросы | Служба поддержки",  
         description: "Часто задаваемые вопросы о казино VAVADA ✓ Правила и условия ✓ Информация о бонусах ✓ Особенности платежей ✓ Техническая поддержка 24/7", 
-        dataLink: "https://partnervavadarv.com/?promo=0a20713e-f26a-491b-853c-b92607f104dd&target=register", 
+        dataLink: "https://vavada.c-wn.ru", 
         keywords: "вавада faq, вопросы vavada, поддержка вавада, помощь vavada казино",  
-        canonical: "https://x-vavada.ru/faq",  
-        ogImage: "https://x-vavada.ru/images/og-faq.jpg",  
+        canonical: "https://krustovavada.com/faq",  
+        ogImage: "https://krustovavada.com/images/og-faq.jpg",  
         type: "faq",  
         hreflangs: {  
-            "x-default": "https://x-vavada.ru/faq",  
+            "x-default": "https://krustovavada.com/faq",  
         },
         staticContent: ` 
          <div class="flex flex-col min-h-screen">  
@@ -3311,13 +3311,13 @@ module.exports = {
         filename: "downloads",  
         title: "Скачать VAVADA - Мобильное приложение казино для Android и iOS",  
         description: "Скачать официальное приложение VAVADA ✓ Версия для Android и iOS ✓ Мобильная версия сайта ✓ Улучшенная производительность и доступ офлайн", 
-        dataLink: "https://partnervavadarv.com/?promo=0a20713e-f26a-491b-853c-b92607f104dd&target=register", 
+        dataLink: "https://vavada.c-wn.ru", 
         keywords: "скачать вавада, приложение vavada, мобильная версия вавада, vavada android ios",  
-        canonical: "https://x-vavada.ru/downloads",  
-        ogImage: "https://x-vavada.ru/images/og-downloads.jpg",  
+        canonical: "https://krustovavada.com/downloads",  
+        ogImage: "https://krustovavada.com/images/og-downloads.jpg",  
         type: "downloads",  
         hreflangs: {  
-            "x-default": "https://x-vavada.ru/downloads",  
+            "x-default": "https://krustovavada.com/downloads",  
         },
         staticContent: ` 
          <div class="flex flex-col min-h-screen">  
