@@ -1,5 +1,5 @@
 module.exports = {  
-    defaultDomain: "krustovavada.com",  
+    defaultDomain: "x-vavada.com",  
     mirrors: [  
       "1-vavada.ru",  
       "2-vavada.ru",  
@@ -15,11 +15,11 @@ module.exports = {
         description: "VAVADA Casino - официальный сайт казино. Бонусы до 100000₽, быстрая регистрация, более 5000 лицензионных слотов. Надежное онлайн казино с быстрыми выплатами.",  
         dataLink: "https://vavada.c-wn.ru",
         keywords: "VAVADA, ВАВАДА, вавада казино, vavada casino, официальный сайт вавада, vavada com",  
-        canonical: "https://krustovavada.com",  
+        canonical: "https://x-vavada.com",  
         ogImage: "https://krustovavada.com/images/og-image.jpg",  
         type: "main",  
         hreflangs: {  
-          "x-default": "https://krustovavada.com",   
+          "x-default": "https://x-vavada.com",   
         }, 
       staticContent: `  
       <div class="flex flex-col min-h-screen">  
