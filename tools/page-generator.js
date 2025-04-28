@@ -26,6 +26,16 @@ class PageGenerator {
             
             <!-- Canonical URL -->  
             <link rel="canonical" href="${pageData.canonical}">  
+
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-YEZGGPKPNP"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-YEZGGPKPNP');
+            </script>
             
             <!-- Open Graph Meta Tags -->  
             <meta property="og:type" content="website">  
@@ -250,7 +260,7 @@ class PageGenerator {
         </html>  
     `;
   }
-  
+
   generateMirrorCheckScript() {
     return `  
         <script>  
