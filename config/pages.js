@@ -704,7 +704,7 @@ module.exports = {
         filename: "ru-ru",  
         title: "VAVADA (ВАВАДА) - Официальный сайт казино | Бонусы 2025",  
         description: "VAVADA Casino - официальный сайт казино. Бонусы до 100000₽, быстрая регистрация, более 5000 лицензионных слотов. Надежное онлайн казино с быстрыми выплатами.",  
-        dataLink: "https://vavada-c-wn.ru",  
+        dataLink: "https://vavada.c-wn.ru",  
         keywords: "VAVADA, ВАВАДА, вавада казино, vavada casino, официальный сайт вавада, vavada com", 
         canonical: "https://vavada-cis.com/ru-ru",  
         ogImage: "https://vavada-cis.com/images/og-mirrors.jpg",  
