@@ -1,26 +1,24 @@
-module.exports = {  
-    defaultDomain: "vavada-cis.com",  
-    mirrors: [  
-      "1-vavada.ru",  
-      "2-vavada.ru",  
-      "3-vavada.ru",  
-    ],  
-    mountId: "vavada",
-    defaultLink: "https://vavada.c-wn.ru",   
-    pages: [  
-      {  
-        id: "index",  
-        filename: "index",  
-        title: "VAVADA (ВАВАДА) - Официальный сайт казино | Бонусы 2025",  
-        description: "VAVADA Casino - официальный сайт казино. Бонусы до 100000₽, быстрая регистрация, более 5000 лицензионных слотов. Надежное онлайн казино с быстрыми выплатами.",  
-        dataLink: "https://vavada.c-wn.ru",
-        keywords: "VAVADA, ВАВАДА, вавада казино, vavada casino, официальный сайт вавада, vavada com",  
-        canonical: "https://vavada-cis.com/ru-ru/",  
-        ogImage: "https://x-vavada.com/images/og-image.jpg",  
-        type: "main",  
-        hreflangs: {  
-          "x-default": "https://vavada-cis.com",   
-        }, 
+module.exports = {
+  defaultDomain: "vavada-cis.com",
+  mirrors: ["1-vavada.ru", "2-vavada.ru", "3-vavada.ru"],
+  mountId: "vavada",
+  defaultLink: "https://vavada.c-wn.ru",
+  pages: [
+    {
+      id: "index",
+      filename: "index",
+      title: "VAVADA (ВАВАДА) - Официальный сайт казино | Бонусы 2025",
+      description:
+        "VAVADA Casino - официальный сайт казино. Бонусы до 100000₽, быстрая регистрация, более 5000 лицензионных слотов. Надежное онлайн казино с быстрыми выплатами.",
+      dataLink: "https://vavada.c-wn.ru",
+      keywords:
+        "VAVADA, ВАВАДА, вавада казино, vavada casino, официальный сайт вавада, vavada com",
+      canonical: "https://vavada-cis.com/ru-ru/",
+      ogImage: "https://vavada-cis.com//images/og-image.jpg",
+      type: "main",
+      hreflangs: {
+        "x-default": "https://vavada-cis.com",
+      },
       staticContent: `  
       <div class="flex flex-col min-h-screen">  
 <header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8">  
@@ -684,7 +682,7 @@ module.exports = {
         <div class="border-t border-[#383856] pt-8">  
             <div class="flex flex-col md:flex-row justify-between items-center">  
                 <div class="text-sm mb-4 md:mb-0">  
-                    © 2024 VAVADA. Все права защищены.  
+                    © 2025 VAVADA. Все права защищены.  
                 </div>  
                 <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 text-sm text-center">  
                     <a href="/faq.html#terms" class="hover:text-white transition-colors">Условия использования</a>  
@@ -699,19 +697,21 @@ module.exports = {
         `,
     },
     //ru-ru
-    {  
-        id: "ru-ru",  
-        filename: "ru-ru",  
-        title: "VAVADA (ВАВАДА) - Официальный сайт казино | Бонусы 2025",  
-        description: "VAVADA Casino - официальный сайт казино. Бонусы до 100000₽, быстрая регистрация, более 5000 лицензионных слотов. Надежное онлайн казино с быстрыми выплатами.",  
-        dataLink: "https://vavada.c-wn.ru",  
-        keywords: "VAVADA, ВАВАДА, вавада казино, vavada casino, официальный сайт вавада, vavada com", 
-        canonical: "https://vavada-cis.com/ru-ru",  
-        ogImage: "https://vavada-cis.com/images/og-mirrors.jpg",  
-        type: "ru-ru",  
-        hreflangs: {  
-          "x-default": "https://vavada-cis.com/ru-ru",   
-        },  
+    {
+      id: "ru-ru",
+      filename: "ru-ru",
+      title: "VAVADA (ВАВАДА) - Официальный сайт казино | Бонусы 2025",
+      description:
+        "VAVADA Casino - официальный сайт казино. Бонусы до 100000₽, быстрая регистрация, более 5000 лицензионных слотов. Надежное онлайн казино с быстрыми выплатами.",
+      dataLink: "https://vavada.c-wn.ru",
+      keywords:
+        "VAVADA, ВАВАДА, вавада казино, vavada casino, официальный сайт вавада, vavada com",
+      canonical: "https://vavada-cis.com/ru-ru",
+      ogImage: "https://vavada-cis.com/images/og-mirrors.jpg",
+      type: "ru-ru",
+      hreflangs: {
+        "x-default": "https://vavada-cis.com/ru-ru",
+      },
       staticContent: `  
       <div class="flex flex-col min-h-screen">  
 <header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8">  
@@ -1375,7 +1375,7 @@ module.exports = {
         <div class="border-t border-[#383856] pt-8">  
             <div class="flex flex-col md:flex-row justify-between items-center">  
                 <div class="text-sm mb-4 md:mb-0">  
-                    © 2024 VAVADA. Все права защищены.  
+                    © 2025 VAVADA. Все права защищены.  
                 </div>  
                 <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 text-sm text-center">  
                     <a href="/faq.html#terms" class="hover:text-white transition-colors">Условия использования</a>  
@@ -1390,20 +1390,22 @@ module.exports = {
         `,
     },
     //Зеркало
-    {  
-        id: "mirrors",  
-        filename: "mirrors",  
-        title: "Зеркало VAVADA (ВАВАДА) - Рабочее зеркало казино | Доступ 2025",  
-        description: "Актуальное зеркало казино VAVADA ✓ Рабочие ссылки для доступа к официальному сайту ✓ Круглосуточный вход без блокировок",
-        dataLink: "https://vavada-c-wn.ru",  
-        keywords: "зеркало вавада, vavada зеркало, рабочее зеркало вавада, актуальное зеркало vavada, вход вавада",  
-        canonical: "https://vavada-cis.com/mirrors",  
-        ogImage: "https://vavada-cis.com/images/og-mirrors.jpg",  
-        type: "mirrors",  
-        hreflangs: {  
-          "x-default": "https://vavada-cis.com/mirrors",   
-        },  
-        staticContent: `  
+    {
+      id: "mirrors",
+      filename: "mirrors",
+      title: "Зеркало VAVADA (ВАВАДА) - Рабочее зеркало казино | Доступ 2025",
+      description:
+        "Актуальное зеркало казино VAVADA ✓ Рабочие ссылки для доступа к официальному сайту ✓ Круглосуточный вход без блокировок",
+      dataLink: "https://vavada-c-wn.ru",
+      keywords:
+        "зеркало вавада, vavada зеркало, рабочее зеркало вавада, актуальное зеркало vavada, вход вавада",
+      canonical: "https://vavada-cis.com/mirrors",
+      ogImage: "https://vavada-cis.com/images/og-mirrors.jpg",
+      type: "mirrors",
+      hreflangs: {
+        "x-default": "https://vavada-cis.com/mirrors",
+      },
+      staticContent: `  
  <div class="flex flex-col min-h-screen">  
     <header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8">  
     <!-- Хлебные крошки -->  
@@ -1752,7 +1754,7 @@ module.exports = {
         <div class="border-t border-[#383856] pt-8">  
             <div class="flex flex-col md:flex-row justify-between items-center">  
                 <div class="text-sm mb-4 md:mb-0">  
-                    © 2024 VAVADA. Все права защищены.  
+                    © 2025 VAVADA. Все права защищены.  
                 </div>  
                 <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 text-sm text-center">  
                     <a href="/faq.html#terms" class="hover:text-white transition-colors">Условия использования</a>  
@@ -1767,21 +1769,24 @@ module.exports = {
           `,
     },
 
-       // Бонусы  
-       {  
-        id: "bonuses",  
-        filename: "bonuses",  
-        title: "Бонусы VAVADA 2025 - Приветственный бонус 100 000₽ | Программа лояльности",  
-        description: "Актуальные бонусы казино VAVADA ✓ Приветственный пакет до 100 000₽ ✓ Кэшбэк до 10% ✓ Фриспины за регистрацию ✓ Программа лояльности",  
-        dataLink: "https://vavada.c-wn.ru",
-        keywords: "бонусы вавада, vavada бонус, приветственный бонус вавада, фриспины vavada, кэшбэк вавада",  
-        canonical: "https://vavada-cis.com/bonuses",  
-        ogImage: "https://vavada-cis.com/images/og-bonuses.jpg",  
-        type: "bonuses",  
-        hreflangs: {  
-            "x-default": "https://vavada-cis.com/bonuses",  
-        },
-        staticContent: ` 
+    // Бонусы
+    {
+      id: "bonuses",
+      filename: "bonuses",
+      title:
+        "Бонусы VAVADA 2025 - Приветственный бонус 100 000₽ | Программа лояльности",
+      description:
+        "Актуальные бонусы казино VAVADA ✓ Приветственный пакет до 100 000₽ ✓ Кэшбэк до 10% ✓ Фриспины за регистрацию ✓ Программа лояльности",
+      dataLink: "https://vavada.c-wn.ru",
+      keywords:
+        "бонусы вавада, vavada бонус, приветственный бонус вавада, фриспины vavada, кэшбэк вавада",
+      canonical: "https://vavada-cis.com/bonuses",
+      ogImage: "https://vavada-cis.com/images/og-bonuses.jpg",
+      type: "bonuses",
+      hreflangs: {
+        "x-default": "https://vavada-cis.com/bonuses",
+      },
+      staticContent: ` 
         <div class="flex flex-col min-h-screen">  
     <header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8">  
     <!-- Хлебные крошки -->  
@@ -2131,7 +2136,7 @@ module.exports = {
         <div class="border-t border-[#383856] pt-8">  
             <div class="flex flex-col md:flex-row justify-between items-center">  
                 <div class="text-sm mb-4 md:mb-0">  
-                    © 2024 VAVADA. Все права защищены.  
+                    © 2025 VAVADA. Все права защищены.  
                 </div>  
                 <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 text-sm text-center">  
                     <a href="/faq.html#terms" class="hover:text-white transition-colors">Условия использования</a>  
@@ -2144,23 +2149,25 @@ module.exports = {
 </footer>  
 </div>
         `,
-   },   
+    },
 
-     // Слоты  
-     {  
-        id: "slots",  
-        filename: "slots",  
-        title: "Игровые автоматы VAVADA - 5000+ слотов от топовых провайдеров",  
-        description: "Лицензионные игровые автоматы VAVADA ✓ Более 5000 слотов от ведущих провайдеров ✓ Высокий RTP ✓ Демо-режим без регистрации", 
-        dataLink: "https://vavada.c-wn.ru", 
-        keywords: "слоты вавада, игровые автоматы vavada, автоматы вавада онлайн, демо слоты vavada",  
-        canonical: "https://vavada-cis.com/slots",  
-        ogImage: "https://vavada-cis.com/images/og-slots.jpg",  
-        type: "slots",  
-        hreflangs: {  
-            "x-default": "https://vavada-cis.com/slots",  
-        },
-        staticContent: ` 
+    // Слоты
+    {
+      id: "slots",
+      filename: "slots",
+      title: "Игровые автоматы VAVADA - 5000+ слотов от топовых провайдеров",
+      description:
+        "Лицензионные игровые автоматы VAVADA ✓ Более 5000 слотов от ведущих провайдеров ✓ Высокий RTP ✓ Демо-режим без регистрации",
+      dataLink: "https://vavada.c-wn.ru",
+      keywords:
+        "слоты вавада, игровые автоматы vavada, автоматы вавада онлайн, демо слоты vavada",
+      canonical: "https://vavada-cis.com/slots",
+      ogImage: "https://vavada-cis.com/images/og-slots.jpg",
+      type: "slots",
+      hreflangs: {
+        "x-default": "https://vavada-cis.com/slots",
+      },
+      staticContent: ` 
          <div class="flex flex-col min-h-screen">  
     <header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8">  
     <!-- Хлебные крошки -->  
@@ -2665,7 +2672,7 @@ module.exports = {
         <div class="border-t border-[#383856] pt-8">  
             <div class="flex flex-col md:flex-row justify-between items-center">  
                 <div class="text-sm mb-4 md:mb-0">  
-                    © 2024 VAVADA. Все права защищены.  
+                    © 2025 VAVADA. Все права защищены.  
                 </div>  
                 <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 text-sm text-center">  
                     <a href="/faq.html#terms" class="hover:text-white transition-colors">Условия использования</a>  
@@ -2677,24 +2684,27 @@ module.exports = {
     </div>  
 </footer>  
 </div>
-        `,  
-    },  
+        `,
+    },
 
-    // Платежи  
-    {  
-        id: "payments",  
-        filename: "payments",  
-        title: "Платежные методы VAVADA - Депозиты и вывод средств | Быстрые выплаты",  
-        description: "Методы оплаты в казино VAVADA ✓ Мгновенные депозиты ✓ Быстрые выплаты ✓ Криптовалюта ✓ Банковские карты ✓ Электронные кошельки", 
-        dataLink: "https://vavada.c-wn.ru",
-        keywords: "вавада депозит, вывод vavada, платежные методы вавада, пополнение vavada",  
-        canonical: "https://vavada-cis.com/payments",  
-        ogImage: "https://vavada-cis.com/images/og-payments.jpg",  
-        type: "payments",  
-        hreflangs: {  
-            "x-default": "https://vavada-cis.com/payments",  
-        },
-        staticContent: `
+    // Платежи
+    {
+      id: "payments",
+      filename: "payments",
+      title:
+        "Платежные методы VAVADA - Депозиты и вывод средств | Быстрые выплаты",
+      description:
+        "Методы оплаты в казино VAVADA ✓ Мгновенные депозиты ✓ Быстрые выплаты ✓ Криптовалюта ✓ Банковские карты ✓ Электронные кошельки",
+      dataLink: "https://vavada.c-wn.ru",
+      keywords:
+        "вавада депозит, вывод vavada, платежные методы вавада, пополнение vavada",
+      canonical: "https://vavada-cis.com/payments",
+      ogImage: "https://vavada-cis.com/images/og-payments.jpg",
+      type: "payments",
+      hreflangs: {
+        "x-default": "https://vavada-cis.com/payments",
+      },
+      staticContent: `
          <div class="flex flex-col min-h-screen">  
      <header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8">  
     <!-- Хлебные крошки -->  
@@ -3157,7 +3167,7 @@ module.exports = {
         <div class="border-t border-[#383856] pt-8">  
             <div class="flex flex-col md:flex-row justify-between items-center">  
                 <div class="text-sm mb-4 md:mb-0">  
-                    © 2024 VAVADA. Все права защищены.  
+                    © 2025 VAVADA. Все права защищены.  
                 </div>  
                 <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 text-sm text-center">  
                     <a href="/faq.html#terms" class="hover:text-white transition-colors">Условия использования</a>  
@@ -3169,26 +3179,30 @@ module.exports = {
     </div>  
 </footer>  
 </div>
-        `,  
-    },  
+        `,
+    },
 
-    // Регистрация  
-    {  
-        id: "registration",  
-        filename: "registration",  
-        title: "Регистрация в VAVADA - Создать аккаунт | Бонус за регистрацию",  
-        description: "Регистрация в казино VAVADA за 1 минуту ✓ Бонус 100 000₽ за создание аккаунта ✓ Простая верификация ✓ Быстрый вход в личный кабинет", 
-        dataLink: "https://vavada.c-wn.ru", 
-        keywords: "регистрация вавада, создать аккаунт vavada, вавада вход, регистрация vavada казино",  
-        canonical: "https://vavada-cis.com/registration",  
-        ogImage: "https://vavada-cis.com/images/og-registration.jpg",  
-        type: "registration",  
-        hreflangs: {  
-            "x-default": "https://vavada-cis.com/registration",  
-        },
-        staticContent: ` 
-         <div class="flex flex-col min-h-screen">  
-    <header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8">  
+    // Регистрация
+    {
+      id: "registration",
+      filename: "registration",
+      title:
+        "Регистрация в VAVADA Casino | Быстрое создание аккаунта с бонусами",
+      description:
+        "Как зарегистрироваться в VAVADA Casino за 3 простых шага ✓ Получите 100% бонус на первый депозит до 100 000₽ + 100 фриспинов ✓ Быстрая верификация",
+      dataLink: "https://vavada.c-wn.ru",
+      keywords:
+        "регистрация вавада, создать аккаунт vavada, вавада вход, регистрация vavada казино",
+      canonical: "https://vavada-cis.com/registration",
+      ogImage: "https://vavada-cis.com/images/og-registration.jpg",
+      type: "registration",
+      hreflangs: {
+        "x-default": "https://vavada-cis.com/registration",
+      },
+      staticContent: ` 
+     <div class="flex flex-col min-h-screen">  
+<!-- Header остается без изменений -->
+<header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8">  
     <!-- Хлебные крошки -->  
     <nav aria-label="Навигационная цепочка" class="mb-6">  
         <ol class="flex text-sm" itemscope itemtype="https://schema.org/BreadcrumbList">  
@@ -3466,7 +3480,8 @@ module.exports = {
     </section>  
 </main>
 
-        <footer class="bg-[#1c1c2d] text-gray-300 mt-12 border-t border-[#383856]">  
+<!-- Footer остается без изменений -->
+    <footer class="bg-[#1c1c2d] text-gray-300 mt-12 border-t border-[#383856]">  
     <div class="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">  
         <!-- Основные секции -->  
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">  
@@ -3552,7 +3567,7 @@ module.exports = {
         <div class="border-t border-[#383856] pt-8">  
             <div class="flex flex-col md:flex-row justify-between items-center">  
                 <div class="text-sm mb-4 md:mb-0">  
-                    © 2024 VAVADA. Все права защищены.  
+                    © 2025 VAVADA. Все права защищены.  
                 </div>  
                 <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 text-sm text-center">  
                     <a href="/faq.html#terms" class="hover:text-white transition-colors">Условия использования</a>  
@@ -3564,24 +3579,27 @@ module.exports = {
     </div>  
 </footer>  
 </div>
-        `,  
-    },  
 
-    // FAQ  
-    {  
-        id: "faq",  
-        filename: "faq",  
-        title: "FAQ VAVADA - Ответы на частые вопросы | Служба поддержки",  
-        description: "Часто задаваемые вопросы о казино VAVADA ✓ Правила и условия ✓ Информация о бонусах ✓ Особенности платежей ✓ Техническая поддержка 24/7", 
-        dataLink: "https://vavada.c-wn.ru", 
-        keywords: "вавада faq, вопросы vavada, поддержка вавада, помощь vavada казино",  
-        canonical: "https://vavada-cis.com/faq",  
-        ogImage: "https://vavada-cis.com/images/og-faq.jpg",  
-        type: "faq",  
-        hreflangs: {  
-            "x-default": "https://vavada-cis.com/faq",  
-        },
-        staticContent: ` 
+        `,
+    },
+
+    // FAQ
+    {
+      id: "faq",
+      filename: "faq",
+      title: "FAQ VAVADA - Ответы на частые вопросы | Служба поддержки",
+      description:
+        "Часто задаваемые вопросы о казино VAVADA ✓ Правила и условия ✓ Информация о бонусах ✓ Особенности платежей ✓ Техническая поддержка 24/7",
+      dataLink: "https://vavada.c-wn.ru",
+      keywords:
+        "вавада faq, вопросы vavada, поддержка вавада, помощь vavada казино",
+      canonical: "https://vavada-cis.com/faq",
+      ogImage: "https://vavada-cis.com/images/og-faq.jpg",
+      type: "faq",
+      hreflangs: {
+        "x-default": "https://vavada-cis.com/faq",
+      },
+      staticContent: ` 
          <div class="flex flex-col min-h-screen">  
      <header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8">  
     <!-- Хлебные крошки -->  
@@ -3981,7 +3999,7 @@ module.exports = {
         <div class="border-t border-[#383856] pt-8">  
             <div class="flex flex-col md:flex-row justify-between items-center">  
                 <div class="text-sm mb-4 md:mb-0">  
-                    © 2024 VAVADA. Все права защищены.  
+                    © 2025 VAVADA. Все права защищены.  
                 </div>  
                 <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 text-sm text-center">  
                     <a href="/faq.html#terms" class="hover:text-white transition-colors">Условия использования</a>  
@@ -3993,24 +4011,26 @@ module.exports = {
     </div>  
 </footer>  
 </div>
-        `,  
-    },  
+        `,
+    },
 
-    // Загрузки  
-    {  
-        id: "downloads",  
-        filename: "downloads",  
-        title: "Скачать VAVADA - Мобильное приложение казино для Android и iOS",  
-        description: "Скачать официальное приложение VAVADA ✓ Версия для Android и iOS ✓ Мобильная версия сайта ✓ Улучшенная производительность и доступ офлайн", 
-        dataLink: "https://vavada.c-wn.ru", 
-        keywords: "скачать вавада, приложение vavada, мобильная версия вавада, vavada android ios",  
-        canonical: "https://vavada-cis.com/downloads",  
-        ogImage: "https://vavada-cis.com/images/og-downloads.jpg",  
-        type: "downloads",  
-        hreflangs: {  
-            "x-default": "https://vavada-cis.com/downloads",  
-        },
-        staticContent: ` 
+    // Загрузки
+    {
+      id: "downloads",
+      filename: "downloads",
+      title: "Скачать VAVADA - Мобильное приложение казино для Android и iOS",
+      description:
+        "Скачать официальное приложение VAVADA ✓ Версия для Android и iOS ✓ Мобильная версия сайта ✓ Улучшенная производительность и доступ офлайн",
+      dataLink: "https://vavada.c-wn.ru",
+      keywords:
+        "скачать вавада, приложение vavada, мобильная версия вавада, vavada android ios",
+      canonical: "https://vavada-cis.com/downloads",
+      ogImage: "https://vavada-cis.com/images/og-downloads.jpg",
+      type: "downloads",
+      hreflangs: {
+        "x-default": "https://vavada-cis.com/downloads",
+      },
+      staticContent: ` 
          <div class="flex flex-col min-h-screen">  
      <header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8">  
     <!-- Хлебные крошки -->  
@@ -4470,7 +4490,7 @@ module.exports = {
         <div class="border-t border-[#383856] pt-8">  
             <div class="flex flex-col md:flex-row justify-between items-center">  
                 <div class="text-sm mb-4 md:mb-0">  
-                    © 2024 VAVADA. Все права защищены.  
+                    © 2025 VAVADA. Все права защищены.  
                 </div>  
                 <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 text-sm text-center">  
                     <a href="/faq.html#terms" class="hover:text-white transition-colors">Условия использования</a>  
@@ -4482,7 +4502,7 @@ module.exports = {
     </div>  
 </footer>  
 </div>
-        `,  
-    }  
+        `,
+    },
   ],
 };
