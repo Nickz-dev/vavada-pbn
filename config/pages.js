@@ -1,6 +1,11 @@
 module.exports = {
   defaultDomain: "vavada-cis.com",
-  mirrors: ["1-vavada.ru", "2-vavada.ru", "3-vavada.ru"],
+  mirrors: [
+    "vavada-sign-up.online",
+    "vavada-sign-in.online",
+    "vavada-mirror-2025.online",
+    "vavada-download.online",
+  ],
   mountId: "vavada",
   defaultLink: "https://vavada.c-wn.ru",
   pages: [
@@ -3181,18 +3186,16 @@ module.exports = {
 </div>
         `,
     },
-
-    // Регистрация
     {
       id: "registration",
       filename: "registration",
       title:
-        "Регистрация в VAVADA Casino | Быстрое создание аккаунта с бонусами",
+        "Регистрация в Vavada Casino | Быстрый вход и 100% бонус до 100 000₽",
       description:
-        "Как зарегистрироваться в VAVADA Casino за 3 простых шага ✓ Получите 100% бонус на первый депозит до 100 000₽ + 100 фриспинов ✓ Быстрая верификация",
+        "Полная инструкция по регистрации в Vavada Casino за 3 минуты. Получите 100% бонус на первый депозит до 100 000₽ и 100 фриспинов. Быстрая верификация и моментальный доступ к играм.",
       dataLink: "https://vavada.c-wn.ru",
       keywords:
-        "регистрация вавада, создать аккаунт vavada, вавада вход, регистрация vavada казино",
+        "регистрация в vavada, как зарегистрироваться в вавада, вход в vavada casino, создать аккаунт vavada, верификация в казино",
       canonical: "https://vavada-cis.com/registration",
       ogImage: "https://vavada-cis.com/images/og-registration.jpg",
       type: "registration",
@@ -3200,228 +3203,405 @@ module.exports = {
         "x-default": "https://vavada-cis.com/registration",
       },
       staticContent: ` 
-     <div class="flex flex-col min-h-screen">  
-<!-- Header остается без изменений -->
-<header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8">  
-    <!-- Хлебные крошки -->  
-    <nav aria-label="Навигационная цепочка" class="mb-6">  
-        <ol class="flex text-sm" itemscope itemtype="https://schema.org/BreadcrumbList">  
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">  
-                <a href="/" itemprop="item" class="text-gray-400 hover:text-white">  
-                    <span itemprop="name">Главная</span>  
-                </a>  
-                <meta itemprop="position" content="1" />  
-            </li>  
-            <li class="mx-2 text-gray-400">/</li>  
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">  
-                <span itemprop="name" class="text-gray-400">Зарегистрироваться</span>  
-                <meta itemprop="position" content="2" />  
-            </li>  
-        </ol>  
-    </nav>  
+<div class="flex flex-col min-h-screen bg-[#0f0f1a]">  
+  <!-- Улучшенный хедер с акцентом на CTA -->
+  <header class="bg-gradient-to-r from-[#1c1c2d] to-[#2a2a42] shadow-xl p-6 mb-8">
+    <div class="max-w-7xl mx-auto">
+      <!-- Хлебные крошки с микроразметкой -->
+      <nav aria-label="Навигация" class="mb-6">
+        <ol class="flex flex-wrap items-center text-sm" itemscope itemtype="https://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" itemprop="item" class="text-gray-400 hover:text-white transition-colors">
+              <span itemprop="name">Главная</span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </li>
+          <li class="mx-2 text-gray-400">/</li>
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name" class="text-white font-medium">Регистрация</span>
+            <meta itemprop="position" content="2" />
+          </li>
+        </ol>
+      </nav>
 
-    <!-- Основная навигация -->  
-    <nav class="mb-6" aria-label="Основная навигация">  
-        <!-- Desktop навигация -->  
-        <div class="flex flex-wrap justify-between items-center">  
-            <div class="flex items-center">  
-                <a href="/" class="flex items-center mr-6">  
-                    <div class="text-2xl font-bold text-[#ff424d] hover:text-[#ff5a64]">  
-                        VAVADA  
-                    </div>  
-                </a>  
-                <!-- Desktop меню -->  
-                <div class="hidden md:flex items-center space-x-6">  
-                    <a href="/" class="text-gray-300 hover:text-white">Главная</a>  
-                    <a href="/mirrors.html" class="text-gray-300 hover:text-white">Зеркала</a>  
-                    <a href="/slots.html" class="text-gray-300 hover:text-white">Слоты</a>  
-                    <a href="/bonuses.html" class="text-gray-300 hover:text-white">Бонусы</a>  
-                    <a href="/registration.html" class="text-gray-300 hover:text-white font-semibold">Регистрация</a>  
-                    <a href="/download.html" class="text-gray-300 hover:text-white">Скачать</a>  
-                    <a href="/payments.html" class="text-gray-300 hover:text-white">Платежные методы</a>  
-                </div>  
-            </div>  
+      <!-- Навигация с улучшенной доступностью -->
+      <nav class="flex flex-wrap justify-between items-center">
+        <div class="flex items-center">
+          <a href="/" class="flex items-center mr-8" aria-label="Логотип Vavada Casino">
+            <span class="text-3xl font-bold bg-gradient-to-r from-[#ff424d] to-[#ff6b73] bg-clip-text text-transparent">
+              VAVADA
+            </span>
+          </a>
+          
+          <!-- Основное меню -->
+          <div class="hidden lg:flex space-x-8">
+            <a href="/" class="text-gray-300 hover:text-white transition-colors py-2">Главная</a>
+            <a href="/slots" class="text-gray-300 hover:text-white transition-colors py-2">Игровые автоматы</a>
+            <a href="/bonuses" class="text-gray-300 hover:text-white transition-colors py-2">Бонусы</a>
+            <a href="/tournaments" class="text-gray-300 hover:text-white transition-colors py-2">Турниры</a>
+            <a href="/registration" class="text-white font-semibold py-2 border-b-2 border-[#ff424d]">Регистрация</a>
+          </div>
+        </div>
 
-            <!-- Desktop кнопки авторизации -->  
-            <div class="hidden md:flex items-center space-x-4">  
-                <a href="/mirrors.html" class="text-gray-300 hover:text-white">  
-                    Войти  
-                </a>  
-                <a href="/registration.html" class="bg-[#ff424d] text-white px-6 py-2 rounded hover:bg-[#ff5a64] transition-colors">  
-                    Регистрация  
-                </a>  
-            </div>  
+        <!-- Кнопки авторизации -->
+        <div class="hidden lg:flex items-center space-x-4">
+          <a href="/login" class="px-6 py-2 text-gray-300 hover:text-white transition-colors">
+            Вход
+          </a>
+          <a href="/registration" class="px-6 py-2 bg-gradient-to-r from-[#ff424d] to-[#ff2c39] text-white rounded-lg hover:opacity-90 transition-all shadow-lg shadow-[#ff424d]/30">
+            Играть сейчас
+          </a>
+        </div>
 
-            <!-- Mobile меню кнопка -->  
-            <button class="md:hidden bg-[#2a2a42] p-2 rounded-lg" id="mobile-menu-button">  
-                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">  
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>  
-                </svg>  
-            </button>  
-        </div>  
+        <!-- Мобильное меню -->
+        <button class="lg:hidden p-2 rounded-lg bg-[#2a2a42] focus:outline-none" id="mobile-menu-button" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </nav>
+    </div>
 
-        <!-- Mobile меню (изначально скрыто) -->  
-        <div class="md:hidden hidden" id="mobile-menu">  
-            <div class="flex flex-col space-y-4 mt-4 px-2">  
-                <a href="/" class="text-gray-300 hover:text-white py-2">Главная</a>  
-                <a href="/mirrors.html" class="text-gray-300 hover:text-white py-2">Зеркала</a>  
-                <a href="/slots.html" class="text-gray-300 hover:text-white py-2">Слоты</a>  
-                <a href="/bonuses.html" class="text-gray-300 hover:text-white py-2">Бонусы</a>  
-                <a href="/registration.html" class="text-gray-300 hover:text-white py-2">Регистрация</a>  
-                <a href="/download.html" class="text-gray-300 hover:text-white py-2">Скачать</a>  
-                <a href="/payments.html" class="text-gray-300 hover:text-white">Платежные методы</a>  
-                <div class="pt-4 border-t border-gray-700">  
-                    <a href="/registration.html" class="block bg-[#ff424d] text-white px-6 py-2 rounded text-center hover:bg-[#ff5a64] transition-colors">  
-                        Регистрация  
-                    </a>  
-                    <a href="/mirrors.html" class="block text-gray-300 hover:text-white text-center mt-4">  
-                        Войти  
-                    </a>  
-                </div>  
-            </div>  
-        </div>  
-    </nav>  
+    <!-- Мобильное меню -->
+    <div class="lg:hidden hidden mt-4" id="mobile-menu">
+      <div class="flex flex-col space-y-3 px-2 py-4 bg-[#2a2a42] rounded-lg">
+        <a href="/" class="px-4 py-2 text-gray-300 hover:text-white">Главная</a>
+        <a href="/slots" class="px-4 py-2 text-gray-300 hover:text-white">Игровые автоматы</a>
+        <a href="/bonuses" class="px-4 py-2 text-gray-300 hover:text-white">Бонусы</a>
+        <a href="/registration" class="px-4 py-2 text-white font-medium bg-[#ff424d]/20 rounded">Регистрация</a>
+        <div class="pt-2 mt-2 border-t border-[#383856]">
+          <a href="/login" class="block px-4 py-2 text-center text-gray-300 hover:text-white">Вход в аккаунт</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
-    <!-- JavaScript для мобильного меню -->  
-    <script>  
-        const mobileMenuButton = document.getElementById('mobile-menu-button');  
-        const mobileMenu = document.getElementById('mobile-menu');  
+  <!-- Основной контент -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1">
+    <!-- Герой-секция с улучшенной микроразметкой -->
+    <section class="relative bg-gradient-to-br from-[#1c1c2d] to-[#2a2a42] rounded-2xl overflow-hidden p-8 md:p-12 mb-12" itemscope itemtype="https://schema.org/Casino">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div class="relative z-10">
+          <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight" itemprop="name">
+            Станьте игроком Vavada Casino <span class="text-[#ff424d]">за 1 минуту</span>
+          </h1>
+          <p class="text-xl text-gray-300 mb-8" itemprop="description">
+            Зарегистрируйтесь и получите эксклюзивный бонус 100% до 100 000₽ + 100 бесплатных вращений
+          </p>
+          
+          <div class="grid grid-cols-3 gap-4 mb-8">
+            <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center border border-[#383856]">
+              <div class="text-2xl font-bold text-[#ff424d]">1 мин</div>
+              <div class="text-gray-400 text-sm">на регистрацию</div>
+            </div>
+            <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center border border-[#383856]">
+              <div class="text-2xl font-bold text-[#ff424d]">100%</div>
+              <div class="text-gray-400 text-sm">бонус</div>
+            </div>
+            <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center border border-[#383856]">
+              <div class="text-2xl font-bold text-[#ff424d]">24/7</div>
+              <div class="text-gray-400 text-sm">поддержка</div>
+            </div>
+          </div>
+          
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="#register-form" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium rounded-lg text-white bg-gradient-to-r from-[#ff424d] to-[#ff2c39] hover:from-[#ff2c39] hover:to-[#ff424d] transition-all shadow-lg shadow-[#ff424d]/30 hover:shadow-[#ff424d]/50">
+              Начать регистрацию
+              <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+              </svg>
+            </a>
+            <a href="/bonuses" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium rounded-lg bg-[#2a2a42] text-gray-300 hover:text-white border border-[#383856] hover:border-[#ff424d]/50 transition-colors">
+              Все бонусы
+            </a>
+          </div>
+        </div>
+        
+        <div class="hidden lg:block relative z-10">
+          <div class="aspect-square bg-gradient-to-br from-[#ff424d]/10 to-[#2a2a42]/50 rounded-xl shadow-2xl border border-[#383856] flex items-center justify-center">
+            <div class="text-center p-6">
+              <div class="text-5xl font-bold text-white mb-4">100%</div>
+              <div class="text-2xl text-gray-300">Бонус за регистрацию</div>
+              <div class="text-[#ff424d] font-medium mt-2">До 100 000₽</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="absolute inset-0 opacity-20 bg-[url('/images/pattern.png')] bg-cover"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-[#ff424d]/5 via-transparent to-[#2a2a42]/10"></div>
+    </section>
 
-        mobileMenuButton.addEventListener('click', () => {  
-            mobileMenu.classList.toggle('hidden');  
-        });  
-    </script>  
-</header>
+    <!-- Навигация по странице -->
+    <nav class="bg-[#2a2a42] rounded-xl p-6 mb-8 sticky top-4 z-10 shadow-lg">
+      <ul class="flex flex-wrap gap-4 md:gap-6 justify-center">
+        <li><a href="#steps" class="flex items-center text-[#ff424d] hover:text-[#ff2c39] font-medium transition-colors">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+          Как зарегистрироваться
+        </a></li>
+        <li><a href="#benefits" class="flex items-center text-[#ff424d] hover:text-[#ff2c39] font-medium transition-colors">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+          Преимущества
+        </a></li>
+        <li><a href="#verification" class="flex items-center text-[#ff424d] hover:text-[#ff2c39] font-medium transition-colors">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+          Верификация
+        </a></li>
+        <li><a href="#faq" class="flex items-center text-[#ff424d] hover:text-[#ff2c39] font-medium transition-colors">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+          Вопросы
+        </a></li>
+      </ul>
+    </nav>
 
-<!-- Main Content Block для registration.html -->  
-<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">  
-    <!-- Hero Section -->  
-    <section class="relative rounded-xl overflow-hidden bg-[#232338] p-8 mb-12">  
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">  
-            <div class="relative z-10">  
-                <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">  
-                    Регистрация в VAVADA  
-                </h1>  
-                <p class="text-xl text-gray-300 mb-8">  
-                    Создайте аккаунт за 1 минуту и получите приветственный бонус 100 000₽  
-                </p>  
-                <div class="grid grid-cols-2 gap-4 mb-8">  
-                    <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center">  
-                        <div class="text-2xl font-bold text-[#ff424d]">1 мин</div>  
-                        <div class="text-gray-400">Регистрация</div>  
-                    </div>  
-                    <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center">  
-                        <div class="text-2xl font-bold text-[#ff424d]">100%</div>  
-                        <div class="text-gray-400">Безопасность</div>  
-                    </div>  
-                </div>  
-                <a href="#register-form" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-md text-white bg-[#ff424d] hover:bg-[#ff2c39] transition-colors shadow-lg shadow-[#ff424d]/20">  
-                    Создать аккаунт  
-                </a>  
-            </div>  
-            <div class="hidden md:block relative z-10">  
-                <div class="aspect-square bg-gradient-to-br from-[#ff424d]/20 to-[#2a2a42] rounded-lg shadow-xl"></div>  
-            </div>  
-        </div>  
-        <div class="absolute inset-0 bg-gradient-to-r from-[#ff424d]/10 to-transparent"></div>  
-    </section>  
+    <!-- Форма регистрации -->
+    <section id="register-form" class="bg-[#2a2a42] rounded-2xl overflow-hidden mb-12 shadow-lg">
+      <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="p-8 md:p-10 bg-gradient-to-b from-[#1c1c2d] to-[#2a2a42]">
+          <h2 class="text-3xl font-bold text-white mb-2">Создайте аккаунт</h2>
+          <p class="text-gray-400 mb-8">Заполните форму для быстрой регистрации</p>
+          
+          <form class="space-y-6">
+            <div>
+              <label for="email" class="block text-gray-300 mb-2">Электронная почта</label>
+              <input type="email" id="email" class="w-full px-4 py-3 bg-[#1c1c2d] border border-[#383856] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff424d] text-white placeholder-gray-500" placeholder="your@email.com" required>
+            </div>
+            
+            <div>
+              <label for="password" class="block text-gray-300 mb-2">Пароль</label>
+              <input type="password" id="password" class="w-full px-4 py-3 bg-[#1c1c2d] border border-[#383856] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff424d] text-white placeholder-gray-500" placeholder="Не менее 8 символов" required>
+            </div>
+            
+            <div>
+              <label for="currency" class="block text-gray-300 mb-2">Валюта аккаунта</label>
+              <select id="currency" class="w-full px-4 py-3 bg-[#1c1c2d] border border-[#383856] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff424d] text-white">
+                <option>Рубли (RUB)</option>
+                <option>Доллары (USD)</option>
+                <option>Евро (EUR)</option>
+                <option>Криптовалюта (USDT)</option>
+              </select>
+            </div>
+            
+            <div class="flex items-start">
+              <div class="flex items-center h-5">
+                <input id="terms" type="checkbox" class="w-4 h-4 bg-[#1c1c2d] border-[#383856] rounded focus:ring-[#ff424d]" required>
+              </div>
+              <label for="terms" class="ml-3 text-sm text-gray-400">
+                Я принимаю <a href="/terms" class="text-[#ff424d] hover:underline">Условия использования</a> и подтверждаю, что мне исполнилось 18 лет
+              </label>
+            </div>
+            
+            <button type="submit" class="w-full py-4 px-6 bg-gradient-to-r from-[#ff424d] to-[#ff2c39] text-white font-medium rounded-lg hover:opacity-90 transition-opacity shadow-lg shadow-[#ff424d]/30">
+              Зарегистрироваться
+            </button>
+          </form>
+        </div>
+        
+        <div class="p-8 md:p-10 bg-[#1c1c2d] border-l border-[#383856]">
+          <h3 class="text-2xl font-bold text-white mb-6">Ваши преимущества</h3>
+          
+          <ul class="space-y-6">
+            <li class="flex items-start">
+              <div class="flex-shrink-0 bg-[#ff424d]/10 p-2 rounded-lg">
+                <svg class="w-6 h-6 text-[#ff424d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <div class="ml-4">
+                <h4 class="text-lg font-medium text-white">Приветственный пакет</h4>
+                <p class="mt-1 text-gray-400">100% бонус на первый депозит + 100 фриспинов</p>
+              </div>
+            </li>
+            
+            <li class="flex items-start">
+              <div class="flex-shrink-0 bg-[#ff424d]/10 p-2 rounded-lg">
+                <svg class="w-6 h-6 text-[#ff424d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <div class="ml-4">
+                <h4 class="text-lg font-medium text-white">Моментальный доступ</h4>
+                <p class="mt-1 text-gray-400">К 4000+ игровым автоматам сразу после регистрации</p>
+              </div>
+            </li>
+            
+            <li class="flex items-start">
+              <div class="flex-shrink-0 bg-[#ff424d]/10 p-2 rounded-lg">
+                <svg class="w-6 h-6 text-[#ff424d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <div class="ml-4">
+                <h4 class="text-lg font-medium text-white">Быстрые выплаты</h4>
+                <p class="mt-1 text-gray-400">Вывод средств за 5-15 минут на любые платежные системы</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <!-- Навигация -->  
-    <nav class="bg-[#2a2a42] rounded-xl p-6 mb-8">  
-        <ul class="flex flex-wrap gap-4">  
-            <li><a href="#steps" class="text-[#ff424d] hover:text-[#ff2c39]">Как зарегистрироваться</a></li>  
-            <li><a href="#benefits" class="text-[#ff424d] hover:text-[#ff2c39]">Преимущества</a></li>  
-            <li><a href="#verification" class="text-[#ff424d] hover:text-[#ff2c39]">Верификация</a></li>  
-            <li><a href="#faq" class="text-[#ff424d] hover:text-[#ff2c39]">FAQ</a></li>  
-        </ul>  
-    </nav>  
+    <!-- Пошаговая инструкция с микроразметкой HowTo -->
+    <section id="steps" class="bg-[#2a2a42] rounded-2xl p-8 md:p-10 mb-12" itemscope itemtype="https://schema.org/HowTo">
+      <h2 class="text-3xl font-bold text-white mb-8 text-center" itemprop="name">3 простых шага для регистрации в Vavada</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Шаг 1 -->
+        <div class="bg-[#1c1c2d] rounded-xl p-6 border border-[#383856] hover:border-[#ff424d]/50 transition-colors" itemprop="step" itemscope itemtype="https://schema.org/HowToStep">
+          <div class="flex items-center mb-4">
+            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#ff424d]/10 flex items-center justify-center text-2xl font-bold text-[#ff424d]">
+              1
+            </div>
+            <h3 class="ml-4 text-xl font-semibold text-white" itemprop="name">Заполнение данных</h3>
+          </div>
+          <div class="text-gray-400" itemprop="text">
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <svg class="flex-shrink-0 w-5 h-5 text-[#ff424d] mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="ml-2">Введите действующий email</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="flex-shrink-0 w-5 h-5 text-[#ff424d] mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="ml-2">Придумайте надежный пароль</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="flex-shrink-0 w-5 h-5 text-[#ff424d] mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="ml-2">Выберите удобную валюту</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Шаг 2 -->
+        <div class="bg-[#1c1c2d] rounded-xl p-6 border border-[#383856] hover:border-[#ff424d]/50 transition-colors" itemprop="step" itemscope itemtype="https://schema.org/HowToStep">
+          <div class="flex items-center mb-4">
+            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#ff424d]/10 flex items-center justify-center text-2xl font-bold text-[#ff424d]">
+              2
+            </div>
+            <h3 class="ml-4 text-xl font-semibold text-white" itemprop="name">Подтверждение email</h3>
+          </div>
+          <div class="text-gray-400" itemprop="text">
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <svg class="flex-shrink-0 w-5 h-5 text-[#ff424d] mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="ml-2">Проверьте входящие письма</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="flex-shrink-0 w-5 h-5 text-[#ff424d] mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="ml-2">Найдите письмо от Vavada Casino</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="flex-shrink-0 w-5 h-5 text-[#ff424d] mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="ml-2">Перейдите по ссылке подтверждения</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Шаг 3 -->
+        <div class="bg-[#1c1c2d] rounded-xl p-6 border border-[#383856] hover:border-[#ff424d]/50 transition-colors" itemprop="step" itemscope itemtype="https://schema.org/HowToStep">
+          <div class="flex items-center mb-4">
+            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#ff424d]/10 flex items-center justify-center text-2xl font-bold text-[#ff424d]">
+              3
+            </div>
+            <h3 class="ml-4 text-xl font-semibold text-white" itemprop="name">Активация бонуса</h3>
+          </div>
+          <div class="text-gray-400" itemprop="text">
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <svg class="flex-shrink-0 w-5 h-5 text-[#ff424d] mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="ml-2">Пополните счет на любую сумму</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="flex-shrink-0 w-5 h-5 text-[#ff424d] mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="ml-2">Получите 100% бонус до 100 000₽</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="flex-shrink-0 w-5 h-5 text-[#ff424d] mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="ml-2">Используйте фриспины в выбранных слотах</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- Шаги регистрации -->  
-    <section id="steps" class="bg-[#2a2a42] rounded-xl p-8 mb-8" itemscope itemtype="https://schema.org/HowTo">  
-        <h2 class="text-2xl font-bold text-white mb-6" itemprop="name">Как зарегистрироваться в VAVADA</h2>  
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">  
-            <div class="bg-[#1c1c2d] rounded-xl p-6" itemprop="step" itemscope itemtype="https://schema.org/HowToStep">  
-                <div class="text-[#ff424d] text-4xl font-bold mb-4">1</div>  
-                <h3 class="text-xl font-semibold text-white mb-4" itemprop="name">Заполните форму</h3>  
-                <div itemprop="text" class="text-gray-300">  
-                    <ul class="space-y-2">  
-                        <li>• Укажите email</li>  
-                        <li>• Придумайте пароль</li>  
-                        <li>• Выберите валюту</li>  
-                    </ul>  
-                </div>  
-            </div>  
-            <div class="bg-[#1c1c2d] rounded-xl p-6" itemprop="step" itemscope itemtype="https://schema.org/HowToStep">  
-                <div class="text-[#ff424d] text-4xl font-bold mb-4">2</div>  
-                <h3 class="text-xl font-semibold text-white mb-4" itemprop="name">Подтвердите email</h3>  
-                <div itemprop="text" class="text-gray-300">  
-                    <ul class="space-y-2">  
-                        <li>• Проверьте почту</li>  
-                        <li>• Перейдите по ссылке</li>  
-                        <li>• Активируйте аккаунт</li>  
-                    </ul>  
-                </div>  
-            </div>  
-            <div class="bg-[#1c1c2d] rounded-xl p-6" itemprop="step" itemscope itemtype="https://schema.org/HowToStep">  
-                <div class="text-[#ff424d] text-4xl font-bold mb-4">3</div>  
-                <h3 class="text-xl font-semibold text-white mb-4" itemprop="name">Получите бонус</h3>  
-                <div itemprop="text" class="text-gray-300">  
-                    <ul class="space-y-2">  
-                        <li>• Пополните счет</li>  
-                        <li>• Активируйте бонус</li>  
-                        <li>• Начните игру</li>  
-                    </ul>  
-                </div>  
-            </div>  
-        </div>  
-    </section>  
+    <!-- Преимущества регистрации -->
+    <section id="benefits" class="bg-[#2a2a42] rounded-2xl p-8 md:p-10 mb-12">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-white mb-4">Почему выбирают Vavada Casino?</h2>
+        <p class="text-xl text-gray-400 max-w-3xl mx-auto">Более 500 000 игроков уже оценили наши преимущества</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-[#1c1c2d] rounded-xl p-6 border border-[#383856] hover:border-[#ff424d]/50 transition-colors">
+          <div class="w-14 h-14 bg-[#ff424d]/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-8 h-8 text-[#ff424d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-3">Щедрые бонусы</h3>
+          <p class="text-gray-400">Приветственный пакет до 100 000₽ + 100 фриспинов, еженедельный кэшбэк и специальные акции</p>
+        </div>
+        
+        <div class="bg-[#1c1c2d] rounded-xl p-6 border border-[#383856] hover:border-[#ff424d]/50 transition-colors">
+          <div class="w-14 h-14 bg-[#ff424d]/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-8 h-8 text-[#ff424d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-3">Безопасность</h3>
+          <p class="text-gray-400">Лицензия Curacao eGaming, SSL-шифрование данных и защита финансовых операций</p>
+        </div>
+        
+        <div class="bg-[#1c1c2d] rounded-xl p-6 border border-[#383856] hover:border-[#ff424d]/50 transition-colors">
+          <div class="w-14 h-14 bg-[#ff424d]/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-8 h-8 text-[#ff424d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-3">Быстрые выплаты</h3>
+          <p class="text-gray-400">Вывод выигрышей за 5-15 минут на карты, электронные кошельки и криптовалюту</p>
+        </div>
+        
+        <div class="bg-[#1c1c2d] rounded-xl p-6 border border-[#383856] hover:border-[#ff424d]/50 transition-colors">
+          <div class="w-14 h-14 bg-[#ff424d]/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-8 h-8 text-[#ff424d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-3">Поддержка 24/7</h3>
+          <p class="text-gray-400">Круглосуточная помощь через онлайн-чат, email и мессенджеры на русском языке</p>
+        </div>
+      </div>
+    </section>
 
-    <!-- Преимущества -->  
-    <section id="benefits" class="bg-[#2a2a42] rounded-xl p-8 mb-8">  
-        <h2 class="text-2xl font-bold text-white mb-6">Преимущества регистрации</h2>  
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">  
-            <div class="bg-[#1c1c2d] rounded-xl p-6">  
-                <ul class="space-y-4 text-gray-300">  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-3">✓</span>  
-                        Приветственный бонус 100 000₽  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-3">✓</span>  
-                        100 фриспинов за регистрацию  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-3">✓</span>  
-                        Еженедельный кэшбэк до 10%  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-3">✓</span>  
-                        Участие в турнирах и акциях  
-                    </li>  
-                </ul>  
-            </div>  
-            <div class="bg-[#1c1c2d] rounded-xl p-6">  
-                <ul class="space-y-4 text-gray-300">  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-3">✓</span>  
-                        Быстрые выплаты выигрышей  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-3">✓</span>  
-                        Круглосуточная поддержка  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-3">✓</span>  
-                        Программа лояльности  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-3">✓</span>  
-                        Защита персональных данных  
-                    </li>  
-                </ul>  
-            </div>  
-        </div>  
-    </section>  
 
     <!-- Верификация -->  
     <section id="verification" class="bg-[#2a2a42] rounded-xl p-8 mb-8">  
