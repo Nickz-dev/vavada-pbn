@@ -978,38 +978,49 @@ module.exports = {
         </div>
       </div>
 
-      <!-- Отзывы -->
-      <div class="bg-[#232338] rounded-xl p-8 mb-8" itemscope itemtype="https://schema.org/Review">
-        <div class="flex justify-between items-center mb-6">
-          <h2 class="text-3xl font-bold text-white">Отзывы игроков</h2>
-          <div class="flex items-center">
-            <div class="text-[#ff424d] text-2xl font-bold" itemprop="ratingValue">4.9</div>
-            <div class="flex text-[#ff424d] ml-2">
-              ★★★★★
-            </div>
-          </div>
+     <!-- Отзывы -->
+<div class="bg-[#232338] rounded-xl p-8 mb-8">
+  <div class="flex justify-between items-center mb-6">
+    <h2 class="text-3xl font-bold text-white">Отзывы игроков</h2>
+    <div class="flex items-center" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+      <div class="text-[#ff424d] text-2xl font-bold" itemprop="ratingValue">4.9</div>
+      <div class="flex text-[#ff424d] ml-2">
+        ★★★★★
+      </div>
+      <meta itemprop="reviewCount" content="1" />
+    </div>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Отзыв 1 -->
+    <div class="bg-[#2a2a42] rounded-xl p-6" itemscope itemtype="https://schema.org/Review">
+      <div class="flex items-center mb-4">
+        <div class="w-10 h-10 rounded-full bg-[#ff424d] flex items-center justify-center text-white font-bold">
+          А
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <!-- Отзыв 1 -->
-          <div class="bg-[#2a2a42] rounded-xl p-6" itemprop="review" itemscope itemtype="https://schema.org/Review">
-            <div class="flex items-center mb-4">
-              <div class="w-10 h-10 rounded-full bg-[#ff424d] flex items-center justify-center text-white font-bold">
-                А
-              </div>
-              <div class="ml-3">
-                <div class="text-white font-medium" itemprop="author">Алексей</div>
-                <div class="text-gray-400 text-sm" itemprop="datePublished">15.05.2025</div>
-              </div>
-            </div>
-            <div class="text-[#ff424d] mb-2">★★★★★</div>
-            <p class="text-gray-300" itemprop="reviewBody">
-              Вывел 78 тысяч за 7 минут на карту. Подтверждение не требовалось. Лучшее казино по скорости выплат!
-            </p>
+        <div class="ml-3">
+          <div class="text-white font-medium" itemprop="author" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Алексей</span>
           </div>
-          
-          <!-- Остальные отзывы аналогично -->
+          <div class="text-gray-400 text-sm" itemprop="datePublished">10.06.2025</div>
         </div>
       </div>
+      <div class="text-[#ff424d] mb-2">
+        <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+          <meta itemprop="ratingValue" content="5" />
+          ★★★★★
+        </span>
+      </div>
+      <p class="text-gray-300" itemprop="reviewBody">
+        Вывел 78 тысяч за 7 минут на карту. Подтверждение не требовалось. Лучшее казино по скорости выплат!
+      </p>
+      <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/Thing">
+        <meta itemprop="name" content="Онлайн казино" />
+      </div>
+    </div>
+    
+    <!-- Остальные отзывы аналогично -->
+  </div>
+</div>
 
       <!-- FAQ -->
       <div class="bg-[#232338] rounded-xl p-8 mb-8">
