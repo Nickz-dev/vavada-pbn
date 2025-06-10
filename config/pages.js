@@ -4194,394 +4194,316 @@ module.exports = {
         `,
     },
 
-    // Загрузки
-    {
-      id: "downloads",
-      filename: "downloads",
-      title: "Скачать VAVADA - Мобильное приложение казино для Android и iOS",
-      description:
-        "Скачать официальное приложение VAVADA ✓ Версия для Android и iOS ✓ Мобильная версия сайта ✓ Улучшенная производительность и доступ офлайн",
-      dataLink: "https://vavada.c-wn.ru",
-      keywords:
-        "скачать вавада, приложение vavada, мобильная версия вавада, vavada android ios",
-      canonical: "https://vavada-cis.com/downloads",
-      ogImage: "https://vavada-cis.com/images/og-downloads.jpg",
-      type: "downloads",
-      hreflangs: {
-        "x-default": "https://vavada-cis.com/downloads",
-      },
-      staticContent: ` 
-         <div class="flex flex-col min-h-screen">  
-     <header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8">  
-    <!-- Хлебные крошки -->  
-    <nav aria-label="Навигационная цепочка" class="mb-6">  
-        <ol class="flex text-sm" itemscope itemtype="https://schema.org/BreadcrumbList">  
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">  
-                <a href="/" itemprop="item" class="text-gray-400 hover:text-white">  
-                    <span itemprop="name">Главная</span>  
-                </a>  
-                <meta itemprop="position" content="1" />  
-            </li>  
-            <li class="mx-2 text-gray-400">/</li>  
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">  
-                <span itemprop="name" class="text-gray-400">Download</span>  
-                <meta itemprop="position" content="2" />  
-            </li>  
-        </ol>  
-    </nav>   
+{
+  id: "downloads",
+  filename: "downloads",
+  title: "Скачать приложение VAVADA для Android и iOS | Официальный клиент казино",
+  description: "Официальное приложение VAVADA для мобильных устройств ✓ Установка на Android и iPhone ✓ Альтернативные способы загрузки ✓ Все преимущества мобильного клиента",
+  dataLink: "https://vavada.c-wn.ru",
+  keywords: "скачать вавада, приложение вавада, vavada apk, vavada ios, мобильное казино, вавада на телефон",
+  canonical: "https://vavada-cis.com/downloads",
+  ogImage: "https://vavada-cis.com/images/og-downloads.jpg",
+  type: "downloads",
+  hreflangs: {
+    "x-default": "https://vavada-cis.com/downloads",
+  },
+  staticContent: ` 
+  <div class="flex flex-col min-h-screen bg-[#1a1a28]">
+    <!-- Хедер -->
+    <header class="bg-[#1c1c2d] shadow-lg">
+      <div class="container mx-auto px-4 py-4">
+        <!-- Хлебные крошки -->
+        <nav aria-label="Навигация" class="mb-4">
+          <ol class="flex items-center text-sm text-gray-400">
+            <li class="inline-flex items-center" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <a href="/" itemprop="item" class="hover:text-white transition-colors">
+                <span itemprop="name">Главная</span>
+              </a>
+              <meta itemprop="position" content="1" />
+              <svg class="w-4 h-4 mx-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+            </li>
+            <li class="text-gray-400" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span itemprop="name">Загрузки</span>
+              <meta itemprop="position" content="2" />
+            </li>
+          </ol>
+        </nav>
 
-    <!-- Основная навигация -->  
-    <nav class="mb-6" aria-label="Основная навигация">  
-        <!-- Desktop навигация -->  
-        <div class="flex flex-wrap justify-between items-center">  
-            <div class="flex items-center">  
-                <a href="/" class="flex items-center mr-6">  
-                    <div class="text-2xl font-bold text-[#ff424d] hover:text-[#ff5a64]">  
-                        VAVADA  
-                    </div>  
-                </a>  
-                <!-- Desktop меню -->  
-                <div class="hidden md:flex items-center space-x-6">  
-                    <a href="/" class="text-gray-300 hover:text-white">Главная</a>  
-                    <a href="/mirrors.html" class="text-gray-300 hover:text-white">Зеркала</a>  
-                    <a href="/slots.html" class="text-gray-300 hover:text-white">Слоты</a>  
-                    <a href="/bonuses.html" class="text-gray-300 hover:text-white">Бонусы</a>  
-                    <a href="/registration.html" class="text-gray-300 hover:text-white">Регистрация</a>  
-                    <a href="/download.html" class="text-gray-300 hover:text-white font-semibold">Скачать</a>  
-                    <a href="/payments.html" class="text-gray-300 hover:text-white">Платежные методы</a>  
-                </div>  
-            </div>  
+        <!-- Основная навигация -->
+        <div class="flex items-center justify-between">
+          <a href="/" class="text-2xl font-bold text-[#ff424d] hover:text-[#ff5a64] transition-colors">VAVADA</a>
+          
+          <!-- Десктоп меню -->
+          <nav class="hidden md:flex space-x-6">
+            <a href="/slots.html" class="text-gray-300 hover:text-white transition-colors">Игры</a>
+            <a href="/bonuses.html" class="text-gray-300 hover:text-white transition-colors">Бонусы</a>
+            <a href="/payments.html" class="text-gray-300 hover:text-white transition-colors">Платежи</a>
+            <a href="/downloads.html" class="text-white font-medium">Приложение</a>
+            <a href="/faq.html" class="text-gray-300 hover:text-white transition-colors">Поддержка</a>
+          </nav>
 
-            <!-- Desktop кнопки авторизации -->  
-            <div class="hidden md:flex items-center space-x-4">  
-                <a href="/login" class="text-gray-300 hover:text-white">  
-                    Войти  
-                </a>  
-                <a href="/registration.html" class="bg-[#ff424d] text-white px-6 py-2 rounded hover:bg-[#ff5a64] transition-colors">  
-                    Регистрация  
-                </a>  
-            </div>  
+          <!-- Кнопки авторизации -->
+          <div class="hidden md:flex items-center space-x-4">
+            <a href="/login.html" class="px-4 py-2 text-gray-300 hover:text-white transition-colors">Вход</a>
+            <a href="/registration.html" class="bg-[#ff424d] hover:bg-[#ff5a64] text-white px-6 py-2 rounded transition-colors">Регистрация</a>
+          </div>
 
-            <!-- Mobile меню кнопка -->  
-            <button class="md:hidden bg-[#2a2a42] p-2 rounded-lg" id="mobile-menu-button">  
-                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">  
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>  
-                </svg>  
-            </button>  
-        </div>  
+          <!-- Мобильное меню -->
+          <button class="md:hidden p-2 text-gray-400 hover:text-white focus:outline-none" id="menu-toggle">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
 
-        <!-- Mobile меню (изначально скрыто) -->  
-        <div class="md:hidden hidden" id="mobile-menu">  
-            <div class="flex flex-col space-y-4 mt-4 px-2">  
-                <a href="/" class="text-gray-300 hover:text-white py-2">Главная</a>  
-                <a href="/mirrors.html" class="text-gray-300 hover:text-white py-2">Зеркала</a>  
-                <a href="/slots.html" class="text-gray-300 hover:text-white py-2">Слоты</a>  
-                <a href="/bonuses.html" class="text-gray-300 hover:text-white py-2">Бонусы</a>  
-                <a href="/registration.html" class="text-gray-300 hover:text-white py-2">Регистрация</a>  
-                <a href="/download.html" class="text-gray-300 hover:text-white py-2">Скачать</a> 
-                <a href="/payments.html" class="text-gray-300 hover:text-white">Платежные методы</a>   
-                <div class="pt-4 border-t border-gray-700">  
-                    <a href="/registration.html" class="block bg-[#ff424d] text-white px-6 py-2 rounded text-center hover:bg-[#ff5a64] transition-colors">  
-                        Регистрация  
-                    </a>  
-                    <a href="/login" class="block text-gray-300 hover:text-white text-center mt-4">  
-                        Войти  
-                    </a>  
-                </div>  
-            </div>  
-        </div>  
-    </nav>  
+      <!-- Мобильное меню (скрыто) -->
+      <div class="md:hidden hidden bg-[#232338] px-4 py-3" id="mobile-menu">
+        <div class="flex flex-col space-y-3">
+          <a href="/slots.html" class="text-gray-300 hover:text-white transition-colors py-2">Игры</a>
+          <a href="/bonuses.html" class="text-gray-300 hover:text-white transition-colors py-2">Бонусы</a>
+          <a href="/payments.html" class="text-gray-300 hover:text-white transition-colors py-2">Платежи</a>
+          <a href="/downloads.html" class="text-white font-medium py-2">Приложение</a>
+          <a href="/faq.html" class="text-gray-300 hover:text-white transition-colors py-2">Поддержка</a>
+          <div class="pt-3 border-t border-gray-700">
+            <a href="/login.html" class="block text-center text-gray-300 hover:text-white transition-colors py-2">Вход</a>
+            <a href="/registration.html" class="block bg-[#ff424d] hover:bg-[#ff5a64] text-white text-center rounded px-4 py-2 mt-2 transition-colors">Регистрация</a>
+          </div>
+        </div>
+      </div>
+    </header>
 
-    <!-- JavaScript для мобильного меню -->  
-    <script>  
-        const mobileMenuButton = document.getElementById('mobile-menu-button');  
-        const mobileMenu = document.getElementById('mobile-menu');  
+    <!-- Основной контент -->
+    <main class="flex-grow container mx-auto px-4 py-8">
+      <!-- Hero секция -->
+      <section class="bg-gradient-to-r from-[#2a2a42] to-[#1c1c2d] rounded-xl p-6 md:p-10 mb-10">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h1 class="text-3xl md:text-4xl font-bold text-white mb-4">Мобильное приложение VAVADA</h1>
+            <p class="text-lg text-gray-300 mb-6">Играйте в любое время и в любом месте с официальным приложением казино</p>
+            <div class="flex flex-wrap gap-4 mb-6">
+              <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-lg p-4 text-center flex-1 min-w-[120px]">
+                <div class="text-2xl font-bold text-[#ff424d]">4.8/5</div>
+                <div class="text-sm text-gray-400">Рейтинг пользователей</div>
+              </div>
+              <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-lg p-4 text-center flex-1 min-w-[120px]">
+                <div class="text-2xl font-bold text-[#ff424d]">1M+</div>
+                <div class="text-sm text-gray-400">Установок</div>
+              </div>
+            </div>
+          </div>
+          <div class="hidden md:block">
+            <div class="relative aspect-square bg-gradient-to-br from-[#ff424d]/20 to-[#2a2a42] rounded-xl overflow-hidden">
+              <!-- Placeholder для изображения приложения -->
+              <div class="absolute inset-0 flex items-center justify-center">
+                <div class="text-white text-lg">Мобильное приложение VAVADA</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        mobileMenuButton.addEventListener('click', () => {  
-            mobileMenu.classList.toggle('hidden');  
-        });  
-    </script>  
-</header>
+      <!-- Навигация по странице -->
+      <nav class="bg-[#2a2a42] rounded-xl p-4 mb-8 overflow-x-auto">
+        <ul class="flex space-x-6 whitespace-nowrap">
+          <li><a href="#download" class="text-[#ff424d] hover:text-[#ff5a64] font-medium">Скачать</a></li>
+          <li><a href="#features" class="text-gray-300 hover:text-white">Преимущества</a></li>
+          <li><a href="#installation" class="text-gray-300 hover:text-white">Установка</a></li>
+          <li><a href="#requirements" class="text-gray-300 hover:text-white">Требования</a></li>
+          <li><a href="#faq" class="text-gray-300 hover:text-white">FAQ</a></li>
+        </ul>
+      </nav>
 
-<!-- Main Content Block для downloads.html -->  
-<main class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 py-4 sm:py-8">  
-    <!-- Hero Section -->  
-    <section class="relative rounded-xl overflow-hidden bg-[#232338] p-4 sm:p-8 mb-6 sm:mb-12">  
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 items-center">  
-            <div class="relative z-10">  
-                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6">  
-                    Мобильное приложение VAVADA  
-                </h1>  
-                <p class="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8">  
-                    Играйте в любимые игры где угодно. Скачайте официальное приложение для iOS и Android  
-                </p>  
-                <div class="grid grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">  
-                    <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-3 sm:p-4 text-center">  
-                        <div class="text-xl sm:text-2xl font-bold text-[#ff424d]">4.8/5</div>  
-                        <div class="text-sm sm:text-base text-gray-400">Рейтинг</div>  
-                    </div>  
-                    <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-3 sm:p-4 text-center">  
-                        <div class="text-xl sm:text-2xl font-bold text-[#ff424d]">1M+</div>  
-                        <div class="text-sm sm:text-base text-gray-400">Загрузок</div>  
-                    </div>  
-                </div>  
-            </div>  
-            <div class="hidden md:block relative z-10">  
-                <div class="aspect-square bg-gradient-to-br from-[#ff424d]/20 to-[#2a2a42] rounded-lg shadow-xl"></div>  
-            </div>  
-        </div>  
-    </section>  
+      <!-- Секция загрузки -->
+      <section id="download" class="bg-[#2a2a42] rounded-xl p-6 md:p-8 mb-10">
+        <h2 class="text-2xl font-bold text-white mb-6">Скачать приложение VAVADA</h2>
+        <div class="grid md:grid-cols-3 gap-8 items-center">
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-3">Быстрый доступ</h3>
+            <p class="text-gray-300 mb-4">Отсканируйте QR-код камерой телефона для мгновенной загрузки</p>
+          </div>
+          <div class="flex justify-center">
+            <div class="bg-white p-4 rounded-lg">
+              <!-- Placeholder для QR-кода -->
+              <div class="w-40 h-40 bg-gray-200 flex items-center justify-center">
+                <span class="text-gray-500">QR-код</span>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <a href="#" class="block bg-black hover:bg-gray-900 text-white text-center py-3 px-6 rounded-lg transition-colors">
+              <span class="font-medium">App Store</span>
+              <span class="block text-xs text-gray-400 mt-1">Для iPhone и iPad</span>
+            </a>
+            <a href="#" class="block bg-[#ff424d] hover:bg-[#ff5a64] text-white text-center py-3 px-6 rounded-lg transition-colors">
+              <span class="font-medium">Google Play</span>
+              <span class="block text-xs text-gray-400 mt-1">Для Android устройств</span>
+            </a>
+            <a href="#" class="block border border-gray-600 hover:border-gray-500 text-gray-300 hover:text-white text-center py-3 px-6 rounded-lg transition-colors text-sm">
+              Скачать APK напрямую
+            </a>
+          </div>
+        </div>
+      </section>
 
-    <!-- Навигация -->  
-    <nav class="bg-[#2a2a42] rounded-xl p-4 sm:p-6 mb-6 sm:mb-8 overflow-x-auto">  
-        <ul class="flex flex-nowrap sm:flex-wrap gap-4 min-w-max sm:min-w-0">  
-            <li><a href="#platforms" class="text-sm sm:text-base text-[#ff424d] hover:text-[#ff2c39] whitespace-nowrap">Платформы</a></li>  
-            <li><a href="#installation" class="text-sm sm:text-base text-[#ff424d] hover:text-[#ff2c39] whitespace-nowrap">Установка</a></li>  
-            <li><a href="#features" class="text-sm sm:text-base text-[#ff424d] hover:text-[#ff2c39] whitespace-nowrap">Преимущества</a></li>  
-            <li><a href="#requirements" class="text-sm sm:text-base text-[#ff424d] hover:text-[#ff2c39] whitespace-nowrap">Требования</a></li>  
-            <li><a href="#faq" class="text-sm sm:text-base text-[#ff424d] hover:text-[#ff2c39] whitespace-nowrap">FAQ</a></li>  
-        </ul>  
-    </nav>  
+      <!-- Преимущества -->
+      <section id="features" class="bg-[#2a2a42] rounded-xl p-6 md:p-8 mb-10">
+        <h2 class="text-2xl font-bold text-white mb-6">Почему стоит скачать приложение?</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-[#1c1c2d] rounded-lg p-6">
+            <div class="text-[#ff424d] text-2xl mb-3">🚀</div>
+            <h3 class="text-xl font-semibold text-white mb-3">Высокая скорость</h3>
+            <p class="text-gray-300">Оптимизированная работа даже при медленном интернете. Быстрый запуск игр без задержек.</p>
+          </div>
+          <div class="bg-[#1c1c2d] rounded-lg p-6">
+            <div class="text-[#ff424d] text-2xl mb-3">🔒</div>
+            <h3 class="text-xl font-semibold text-white mb-3">Безопасность</h3>
+            <p class="text-gray-300">Защита данных и транзакций. Поддержка биометрической аутентификации.</p>
+          </div>
+          <div class="bg-[#1c1c2d] rounded-lg p-6">
+            <div class="text-[#ff424d] text-2xl mb-3">💎</div>
+            <h3 class="text-xl font-semibold text-white mb-3">Эксклюзивные бонусы</h3>
+            <p class="text-gray-300">Специальные предложения только для пользователей мобильного приложения.</p>
+          </div>
+          <div class="bg-[#1c1c2d] rounded-lg p-6">
+            <div class="text-[#ff424d] text-2xl mb-3">📲</div>
+            <h3 class="text-xl font-semibold text-white mb-3">Push-уведомления</h3>
+            <p class="text-gray-300">Своевременные оповещения о бонусах, турнирах и новых играх.</p>
+          </div>
+          <div class="bg-[#1c1c2d] rounded-lg p-6">
+            <div class="text-[#ff424d] text-2xl mb-3">📊</div>
+            <h3 class="text-xl font-semibold text-white mb-3">Стабильность</h3>
+            <p class="text-gray-300">Минимум технических сбоев по сравнению с мобильной версией сайта.</p>
+          </div>
+          <div class="bg-[#1c1c2d] rounded-lg p-6">
+            <div class="text-[#ff424d] text-2xl mb-3">🔋</div>
+            <h3 class="text-xl font-semibold text-white mb-3">Экономия заряда</h3>
+            <p class="text-gray-300">Оптимизированное энергопотребление для длительных игровых сессий.</p>
+          </div>
+        </div>
+      </section>
 
-    <!-- QR-код и кнопки загрузки -->  
-    <section class="bg-[#2a2a42] rounded-xl p-4 sm:p-8 mb-6 sm:mb-8">  
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">  
-            <div class="text-center md:text-left">  
-                <h2 class="text-xl sm:text-2xl font-bold text-white mb-4">Быстрая загрузка</h2>  
-                <p class="text-gray-300 mb-4">Отсканируйте QR-код камерой телефона</p>  
-            </div>  
-            <div class="flex justify-center">  
-                <div class="bg-white p-4 rounded-xl w-48 h-48">  
-                    <!-- Здесь будет QR-код -->  
-                    <div class="w-full h-full bg-[#1c1c2d]"></div>  
-                </div>  
-            </div>  
-            <div class="flex flex-col gap-4">  
-                <button class="flex items-center justify-center gap-2 bg-black text-white rounded-xl p-4 hover:bg-gray-900 transition-colors">  
-                    <span class="text-2xl">App Store</span>  
-                </button>  
-                <button class="flex items-center justify-center gap-2 bg-[#ff424d] text-white rounded-xl p-4 hover:bg-[#ff2c39] transition-colors">  
-                    <span class="text-2xl">Google Play</span>  
-                </button>  
-            </div>  
-        </div>  
-    </section>  
+      <!-- Установка -->
+      <section id="installation" class="bg-[#2a2a42] rounded-xl p-6 md:p-8 mb-10">
+        <h2 class="text-2xl font-bold text-white mb-6">Как установить приложение</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="bg-[#1c1c2d] rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-white mb-4 flex items-center">
+              <svg class="w-6 h-6 mr-2 text-[#ff424d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+              </svg>
+              Для iOS
+            </h3>
+            <ol class="space-y-3 text-gray-300 pl-5 list-decimal">
+              <li>Откройте App Store на вашем устройстве</li>
+              <li>Введите "VAVADA Casino" в поисковой строке</li>
+              <li>Нажмите кнопку "Загрузить"</li>
+              <li>Дождитесь завершения установки</li>
+              <li>Откройте приложение и авторизуйтесь</li>
+            </ol>
+          </div>
+          <div class="bg-[#1c1c2d] rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-white mb-4 flex items-center">
+              <svg class="w-6 h-6 mr-2 text-[#ff424d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+              </svg>
+              Для Android
+            </h3>
+            <ol class="space-y-3 text-gray-300 pl-5 list-decimal">
+              <li>Скачайте APK-файл с нашего сайта</li>
+              <li>Перейдите в Настройки → Безопасность</li>
+              <li>Разрешите установку из неизвестных источников</li>
+              <li>Откройте скачанный файл и подтвердите установку</li>
+              <li>Запустите приложение после завершения установки</li>
+            </ol>
+          </div>
+        </div>
+        <div class="mt-6 bg-[#1c1c2d] rounded-lg p-6">
+          <h3 class="text-xl font-semibold text-white mb-4">Альтернативные способы установки</h3>
+          <p class="text-gray-300 mb-4">Если у вас возникают проблемы с установкой, попробуйте следующие варианты:</p>
+          <ul class="space-y-3 text-gray-300 pl-5 list-disc">
+            <li>Используйте <a href="#" class="text-[#ff424d] hover:underline">мобильную версию сайта</a></li>
+            <li>Скачайте приложение через <a href="#" class="text-[#ff424d] hover:underline">зеркало</a></li>
+            <li>Запросите ссылку для установки у <a href="#" class="text-[#ff424d] hover:underline">службы поддержки</a></li>
+          </ul>
+        </div>
+      </section>
 
-    <!-- Платформы -->  
-    <section id="platforms" class="bg-[#2a2a42] rounded-xl p-4 sm:p-8 mb-6 sm:mb-8">  
-        <h2 class="text-xl sm:text-2xl font-bold text-white mb-6">Доступные платформы</h2>  
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">  
-            <!-- iOS -->  
-            <div class="bg-[#1c1c2d] rounded-xl p-6">  
-                <h3 class="text-xl font-semibold text-white mb-4">iOS приложение</h3>  
-                <ul class="space-y-3 text-gray-300">  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Поддержка iOS 12.0 и выше  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Оптимизация для iPhone и iPad  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Touch ID / Face ID вход  
-                    </li>  
-                </ul>  
-            </div>  
-            <!-- Android -->  
-            <div class="bg-[#1c1c2d] rounded-xl p-6">  
-                <h3 class="text-xl font-semibold text-white mb-4">Android приложение</h3>  
-                <ul class="space-y-3 text-gray-300">  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Android 7.0 и выше  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Установка APK файла  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Биометрическая аутентификация  
-                    </li>  
-                </ul>  
-            </div>  
-        </div>  
-    </section>  
+      <!-- Требования -->
+      <section id="requirements" class="bg-[#2a2a42] rounded-xl p-6 md:p-8 mb-10">
+        <h2 class="text-2xl font-bold text-white mb-6">Системные требования</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="bg-[#1c1c2d] rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-white mb-4">Для устройств Apple</h3>
+            <ul class="space-y-3 text-gray-300">
+              <li class="flex justify-between border-b border-gray-700 pb-2">
+                <span>Операционная система:</span>
+                <span class="font-medium">iOS 12.0 и новее</span>
+              </li>
+              <li class="flex justify-between border-b border-gray-700 pb-2">
+                <span>Свободное место:</span>
+                <span class="font-medium">150 МБ</span>
+              </li>
+              <li class="flex justify-between border-b border-gray-700 pb-2">
+                <span>Поддерживаемые устройства:</span>
+                <span class="font-medium">iPhone 6s и новее, iPad Air 2 и новее</span>
+              </li>
+              <li class="flex justify-between">
+                <span>Рекомендуется:</span>
+                <span class="font-medium">Последняя версия iOS</span>
+              </li>
+            </ul>
+          </div>
+          <div class="bg-[#1c1c2d] rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-white mb-4">Для устройств Android</h3>
+            <ul class="space-y-3 text-gray-300">
+              <li class="flex justify-between border-b border-gray-700 pb-2">
+                <span>Операционная система:</span>
+                <span class="font-medium">Android 7.0 и новее</span>
+              </li>
+              <li class="flex justify-between border-b border-gray-700 pb-2">
+                <span>Свободное место:</span>
+                <span class="font-medium">100 МБ</span>
+              </li>
+              <li class="flex justify-between border-b border-gray-700 pb-2">
+                <span>Оперативная память:</span>
+                <span class="font-medium">2 ГБ и более</span>
+              </li>
+              <li class="flex justify-between">
+                <span>Рекомендуется:</span>
+                <span class="font-medium">Процессор с 4+ ядрами</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-    <!-- Инструкция по установке -->  
-    <section id="installation" class="bg-[#2a2a42] rounded-xl p-4 sm:p-8 mb-6 sm:mb-8">  
-        <h2 class="text-xl sm:text-2xl font-bold text-white mb-6">Как установить</h2>  
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">  
-            <!-- iOS Installation -->  
-            <div class="bg-[#1c1c2d] rounded-xl p-6">  
-                <h3 class="text-xl font-semibold text-white mb-4">Установка на iOS</h3>  
-                <ol class="space-y-3 text-gray-300 list-decimal pl-4">  
-                    <li>Откройте App Store</li>  
-                    <li>Найдите "VAVADA Casino"</li>  
-                    <li>Нажмите "Загрузить"</li>  
-                    <li>Подтвердите установку</li>  
-                    <li>Запустите приложение</li>  
-                </ol>  
-            </div>  
-            <!-- Android Installation -->  
-            <div class="bg-[#1c1c2d] rounded-xl p-6">  
-                <h3 class="text-xl font-semibold text-white mb-4">Установка на Android</h3>  
-                <ol class="space-y-3 text-gray-300 list-decimal pl-4">  
-                    <li>Скачайте APK файл</li>  
-                    <li>Разрешите установку из неизвестных источников</li>  
-                    <li>Откройте загруженный файл</li>  
-                    <li>Нажмите "Установить"</li>  
-                    <li>Запустите приложение</li>  
-                </ol>  
-            </div>  
-        </div>  
-    </section>  
-
-    <!-- Преимущества -->  
-    <section id="features" class="bg-[#2a2a42] rounded-xl p-4 sm:p-8 mb-6 sm:mb-8">  
-        <h2 class="text-xl sm:text-2xl font-bold text-white mb-6">Преимущества приложения</h2>  
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">  
-            <div class="bg-[#1c1c2d] rounded-xl p-6">  
-                <h3 class="text-xl font-semibold text-white mb-4">Производительность</h3>  
-                <ul class="space-y-3 text-gray-300">  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Быстрый запуск игр  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Оптимизированная графика  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Экономия трафика  
-                    </li>  
-                </ul>  
-            </div>  
-            <div class="bg-[#1c1c2d] rounded-xl p-6">  
-                <h3 class="text-xl font-semibold text-white mb-4">Безопасность</h3>  
-                <ul class="space-y-3 text-gray-300">  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Биометрическая защита  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Шифрование данных  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Безопасные платежи  
-                    </li>  
-                </ul>  
-            </div>  
-            <div class="bg-[#1c1c2d] rounded-xl p-6">  
-                <h3 class="text-xl font-semibold text-white mb-4">Удобство</h3>  
-                <ul class="space-y-3 text-gray-300">  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Push-уведомления  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Быстрые депозиты  
-                    </li>  
-                    <li class="flex items-center">  
-                        <span class="text-[#ff424d] mr-2">✓</span>  
-                        Оффлайн режим  
-                    </li>  
-                </ul>  
-            </div>  
-        </div>  
-    </section>  
-
-    <!-- Системные требования -->  
-    <section id="requirements" class="bg-[#2a2a42] rounded-xl p-4 sm:p-8 mb-6 sm:mb-8">  
-        <h2 class="text-xl sm:text-2xl font-bold text-white mb-6">Системные требования</h2>  
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">  
-            <div class="bg-[#1c1c2d] rounded-xl p-6">  
-                <h3 class="text-xl font-semibold text-white mb-4">iOS</h3>  
-                <ul class="space-y-3 text-gray-300">  
-                    <li class="flex justify-between">  
-                        <span>Версия iOS:</span>  
-                        <span>12.0 или выше</span>  
-                    </li>  
-                    <li class="flex justify-between">  
-                        <span>Память:</span>  
-                        <span>150 МБ</span>  
-                    </li>  
-                    <li class="flex justify-between">  
-                        <span>Устройства:</span>  
-                        <span>iPhone, iPad</span>  
-                    </li>  
-                </ul>  
-            </div>  
-            <div class="bg-[#1c1c2d] rounded-xl p-6">  
-                <h3 class="text-xl font-semibold text-white mb-4">Android</h3>  
-                <ul class="space-y-3 text-gray-300">  
-                    <li class="flex justify-between">  
-                        <span>Версия Android:</span>  
-                        <span>7.0 или выше</span>  
-                    </li>  
-                    <li class="flex justify-between">  
-                        <span>Память:</span>  
-                        <span>100 МБ</span>  
-                    </li>  
-                  <li class="flex justify-between">  
-                        <span>Процессор:</span>  
-                        <span>1.2 GHz и выше</span>  
-                    </li>  
-                    <li class="flex justify-between">  
-                        <span>ОЗУ:</span>  
-                        <span>2 GB и выше</span>  
-                    </li>  
-                </ul>  
-            </div>  
-        </div>  
-    </section>  
-
-    <!-- FAQ -->  
-    <section id="faq" class="bg-[#2a2a42] rounded-xl p-4 sm:p-8">  
-        <h2 class="text-xl sm:text-2xl font-bold text-white mb-6">Частые вопросы</h2>  
-        <div class="space-y-4">  
-            <div class="bg-[#1c1c2d] rounded-xl p-4 sm:p-6">  
-                <h3 class="text-lg sm:text-xl font-semibold text-white mb-3">Чем отличается приложение от сайта?</h3>  
-                <p class="text-sm sm:text-base text-gray-300">  
-                    Приложение работает быстрее, экономит трафик, имеет улучшенную графику и дополнительные функции: биометрический вход, push-уведомления и оффлайн режим.  
-                </p>  
-            </div>  
-            
-            <div class="bg-[#1c1c2d] rounded-xl p-4 sm:p-6">  
-                <h3 class="text-lg sm:text-xl font-semibold text-white mb-3">Безопасно ли устанавливать APK файл?</h3>  
-                <p class="text-sm sm:text-base text-gray-300">  
-                    Да, если вы скачиваете файл с официального сайта VAVADA. Наше приложение имеет цифровую подпись и проверяется на вирусы.  
-                </p>  
-            </div>  
-            
-            <div class="bg-[#1c1c2d] rounded-xl p-4 sm:p-6">  
-                <h3 class="text-lg sm:text-xl font-semibold text-white mb-3">Нужно ли обновлять приложение?</h3>  
-                <p class="text-sm sm:text-base text-gray-300">  
-                    Рекомендуется всегда использовать последнюю версию для доступа к новым функциям и исправлениям безопасности. Приложение уведомит вас о доступных обновлениях.  
-                </p>  
-            </div>  
-            
-            <div class="bg-[#1c1c2d] rounded-xl p-4 sm:p-6">  
-                <h3 class="text-lg sm:text-xl font-semibold text-white mb-3">Что делать если приложение не устанавливается?</h3>  
-                <p class="text-sm sm:text-base text-gray-300">  
-                    Проверьте соответствие системным требованиям, наличие свободной памяти и разрешение на установку из неизвестных источников. При проблемах обратитесь в службу поддержки.  
-                </p>  
-            </div>  
-            
-            <div class="bg-[#1c1c2d] rounded-xl p-4 sm:p-6">  
-                <h3 class="text-lg sm:text-xl font-semibold text-white mb-3">Поддерживаются ли все игры в приложении?</h3>  
-                <p class="text-sm sm:text-base text-gray-300">  
-                    Большинство игр доступно в мобильной версии. Каталог постоянно расширяется, некоторые игры могут быть оптимизированы специально для мобильных устройств.  
-                </p>  
-            </div>  
-        </div>  
-    </section>  
+      <!-- FAQ -->
+      <section id="faq" class="bg-[#2a2a42] rounded-xl p-6 md:p-8">
+        <h2 class="text-2xl font-bold text-white mb-6">Частые вопросы</h2>
+        <div class="space-y-4">
+          <details class="bg-[#1c1c2d] rounded-lg p-4" open>
+            <summary class="text-lg font-semibold text-white cursor-pointer focus:outline-none">Чем приложение лучше мобильной версии сайта?</summary>
+            <p class="mt-3 text-gray-300">Приложение VAVADA предлагает более высокую производительность, стабильное соединение, push-уведомления о бонусах и турнирах, а также возможность быстрого доступа к любимым играм. Оно оптимизировано для работы на мобильных устройствах и потребляет меньше интернет-трафика.</p>
+          </details>
+          <details class="bg-[#1c1c2d] rounded-lg p-4">
+            <summary class="text-lg font-semibold text-white cursor-pointer focus:outline-none">Безопасно ли устанавливать APK-файл?</summary>
+            <p class="mt-3 text-gray-300">Да, если вы скачиваете файл исключительно с официального сайта VAVADA. Наше приложение проходит регулярные проверки на безопасность и не содержит вредоносного кода. Перед установкой рекомендуем проверить цифровую подпись файла.</p>
+          </details>
+          <details class="bg-[#1c1c2d] rounded-lg p-4">
+            <summary class="text-lg font-semibold text-white cursor-pointer focus:outline-none">Как обновлять приложение?</summary>
+            <p class="mt-3 text-gray-300">Для iOS: обновления доступны автоматически через App Store. Для Android: при появлении новой версии вы получите уведомление в приложении с возможностью скачать обновление. Рекомендуем всегда использовать последнюю версию для доступа ко всем функциям.</p>
+          </details>
+          <details class="bg-[#1c1c2d] rounded-lg p-4">
+            <summary class="text-lg font-semibold text-white cursor-pointer focus:outline-none">Что делать, если приложение не устанавливается?</summary>
+            <p class="mt-3 text-gray-300">1. Проверьте соответствие вашего устройства системным требованиям<br>2. Убедитесь, что на устройстве достаточно свободной памяти<br>3. Для Android: разрешите установку из неизвестных источников<br>4. Попробуйте перезагрузить устройство<br>Если проблема сохраняется, обратитесь в службу поддержки.</p>
+          </details>
+          <details class="bg-[#1c1c2d] rounded-lg p-4">
+            <summary class="text-lg font-semibold text-white cursor-pointer focus:outline-none">Доступны ли все игры в приложении?</summary>
+            <p class="mt-3 text-gray-300">Приложение поддерживает более 95% игрового каталога VAVADA. Некоторые редкие слоты могут быть доступны только в полной версии сайта. Мы постоянно работаем над добавлением новых игр в мобильное приложение.</p>
+          </details>
+        </div>
+      </section>
 </main>  
 
         <footer class="bg-[#1c1c2d] text-gray-300 mt-12 border-t border-[#383856]">  
