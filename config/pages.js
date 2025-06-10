@@ -702,597 +702,364 @@ module.exports = {
         `,
     },
     //ru-ru
-    {
-      id: "ru-ru",
-      filename: "ru-ru",
-      title: "VAVADA (ВАВАДА) - Официальный сайт казино | Бонусы 2025",
-      description:
-        "VAVADA Casino - официальный сайт казино. Бонусы до 100000₽, быстрая регистрация, более 5000 лицензионных слотов. Надежное онлайн казино с быстрыми выплатами.",
-      dataLink: "https://vavada.c-wn.ru",
-      keywords:
-        "VAVADA, ВАВАДА, вавада казино, vavada casino, официальный сайт вавада, vavada com",
-      canonical: "https://vavada-cis.com/ru-ru",
-      ogImage: "https://vavada-cis.com/images/og-mirrors.jpg",
-      type: "ru-ru",
-      hreflangs: {
-        "x-default": "https://vavada-cis.com/ru-ru",
-      },
-      staticContent: `  
-      <div class="flex flex-col min-h-screen">  
-<header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8">  
-    <!-- Хлебные крошки -->  
-    <nav aria-label="Навигационная цепочка" class="mb-6">  
-        <ol class="flex text-sm" itemscope itemtype="https://schema.org/BreadcrumbList">  
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">  
-                <a href="/" itemprop="item" class="text-gray-400 hover:text-white">  
-                    <span itemprop="name">Главная</span>  
-                </a>  
-                <meta itemprop="position" content="1" />  
-            </li>  
-            <li class="mx-2 text-gray-400">/</li>  
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">  
-                <span itemprop="name" class="text-gray-400">Текущая страница</span>  
-                <meta itemprop="position" content="2" />  
-            </li>  
-        </ol>  
-    </nav>  
+   {
+  id: "ru-ru",
+  filename: "ru-ru",
+  title: "Официальный сайт VAVADA (Вавада) Казино | Регистрация и бонусы 2025",
+  description: "VAVADA Casino — официальный сайт с лицензионными слотами. Регистрируйтесь и получайте бонус до 100 000₽ + фриспины. Быстрые выплаты, 5000+ игр, круглосуточная поддержка.",
+  dataLink: "https://vavada.c-wn.ru",
+  keywords: "VAVADA, Вавада казино, официальный сайт VAVADA, регистрация в казино, бонусы за регистрацию, игровые автоматы",
+  canonical: "https://vavada-cis.com/ru-ru",
+  ogImage: "https://vavada-cis.com/images/og-mirrors.jpg",
+  type: "ru-ru",
+  hreflangs: {
+    "x-default": "https://vavada-cis.com/ru-ru",
+  },
+  staticContent: `  
+  <div class="flex flex-col min-h-screen">  
+    <!-- Шапка с улучшенной семантикой -->
+    <header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8" itemscope itemtype="https://schema.org/WebSite">
+      <meta itemprop="url" content="https://vavada-cis.com/ru-ru"/>
+      
+      <!-- Навигационная цепочка -->
+      <nav aria-label="Хлебные крошки" class="mb-6">
+        <ol class="flex text-sm" itemscope itemtype="https://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" itemprop="item" class="text-gray-400 hover:text-white">
+              <span itemprop="name">Главная</span>
+            </a>
+            <meta itemprop="position" content="1"/>
+          </li>
+          <li class="mx-2 text-gray-400">/</li>
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name" class="text-gray-400">Официальный сайт</span>
+            <meta itemprop="position" content="2"/>
+          </li>
+        </ol>
+      </nav>
 
-    <!-- Основная навигация -->  
-    <nav class="mb-6" aria-label="Основная навигация">  
-        <!-- Desktop навигация -->  
-        <div class="flex flex-wrap justify-between items-center">  
-            <div class="flex items-center">  
-                <a href="/" class="flex items-center mr-6">  
-                    <div class="text-2xl font-bold text-[#ff424d] hover:text-[#ff5a64]">  
-                        VAVADA  
-                    </div>  
-                </a>  
-                <!-- Desktop меню -->  
-                <div class="hidden md:flex items-center space-x-6">  
-                    <a href="/" class="text-gray-300 hover:text-white font-semibold">Главная</a>  
-                    <a href="/mirrors.html" class="text-gray-300 hover:text-white">Зеркала</a>  
-                    <a href="/slots.html" class="text-gray-300 hover:text-white">Слоты</a>  
-                    <a href="/bonuses.html" class="text-gray-300 hover:text-white">Бонусы</a>  
-                    <a href="/registration.html" class="text-gray-300 hover:text-white">Регистрация</a>  
-                    <a href="/download.html" class="text-gray-300 hover:text-white">Скачать</a>  
-                    <a href="/payments.html" class="text-gray-300 hover:text-white">Платежные методы</a>  
-                </div>  
-            </div>  
-
-            <!-- Desktop кнопки авторизации -->  
-            <div class="hidden md:flex items-center space-x-4">  
-                <a href="/mirrors.html" class="text-gray-300 hover:text-white">  
-                    Войти  
-                </a>  
-                <a href="/registration.html" class="bg-[#ff424d] text-white px-6 py-2 rounded hover:bg-[#ff5a64] transition-colors">  
-                    Регистрация  
-                </a>  
-            </div>  
-
-            <!-- Mobile меню кнопка -->  
-            <button class="md:hidden bg-[#2a2a42] p-2 rounded-lg" id="mobile-menu-button">  
-                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">  
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>  
-                </svg>  
-            </button>  
-        </div>  
-
-        <!-- Mobile меню (изначально скрыто) -->  
-        <div class="md:hidden hidden" id="mobile-menu">  
-            <div class="flex flex-col space-y-4 mt-4 px-2">  
-                <a href="/" class="text-gray-300 hover:text-white py-2">Главная</a>  
-                <a href="/mirrors.html" class="text-gray-300 hover:text-white py-2">Зеркала</a>  
-                <a href="/slots.html" class="text-gray-300 hover:text-white py-2">Слоты</a>  
-                <a href="/bonuses.html" class="text-gray-300 hover:text-white py-2">Бонусы</a>  
-                <a href="/registration.html" class="text-gray-300 hover:text-white py-2">Регистрация</a>  
-                <a href="/download.html" class="text-gray-300 hover:text-white py-2">Скачать</a>  
-                <a href="/payments.html" class="text-gray-300 hover:text-white">Платежные методы</a>  
-                <div class="pt-4 border-t border-gray-700">  
-                    <a href="/registration.html" class="block bg-[#ff424d] text-white px-6 py-2 rounded text-center hover:bg-[#ff5a64] transition-colors">  
-                        Регистрация  
-                    </a>  
-                    <a href="/mirrors.html" class="block text-gray-300 hover:text-white text-center mt-4">  
-                        Войти  
-                    </a>  
-                </div>  
-            </div>  
-        </div>  
-    </nav>  
-
-    <!-- JavaScript для мобильного меню -->  
-    <script>  
-        const mobileMenuButton = document.getElementById('mobile-menu-button');  
-        const mobileMenu = document.getElementById('mobile-menu');  
-
-        mobileMenuButton.addEventListener('click', () => {  
-            mobileMenu.classList.toggle('hidden');  
-        });  
-    </script>  
-</header>
-<!-- Main Content Block -->  
-<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">  
-    <!-- Hero Section с интегрированной статистикой -->  
-  <!-- Hero Section -->  
-<section class="relative rounded-xl overflow-hidden bg-[#232338] p-8 mb-12" itemscope itemtype="https://schema.org/Casino">  
-    <meta itemprop="name" content="VAVADA Casino">  
-    <meta itemprop="description" content="Лицензионные игры, моментальные выплаты и щедрые бонусы для новых игроков">  
-    
-    <!-- Добавляем корректный рейтинг -->  
-    <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">  
-        <meta itemprop="itemReviewed" content="VAVADA Casino">  
-        <meta itemprop="reviewCount" content="5000">  
-        <meta itemprop="ratingValue" content="4.9">  
-        <meta itemprop="bestRating" content="5">  
-        <meta itemprop="worstRating" content="1">  
-    </div>  
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">  
-        <div class="relative z-10">  
-            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight" itemprop="slogan">  
-                VAVADA — официальный сайт казино  
-            </h1>  
-            <p class="text-xl text-gray-300 mb-8 leading-relaxed">  
-                Лицензионные игры, моментальные выплаты и щедрые бонусы для новых игроков  
-            </p>  
+      <!-- Основное меню -->
+      <nav class="mb-6" aria-label="Основное меню">
+        <div class="flex flex-wrap justify-between items-center">
+          <div class="flex items-center">
+            <a href="/" class="flex items-center mr-6" itemprop="mainEntityOfPage">
+              <div class="text-2xl font-bold text-[#ff424d] hover:text-[#ff5a64]">
+                VAVADA
+              </div>
+            </a>
             
-            <!-- Статистика -->  
-            <div class="grid grid-cols-2 gap-4 mb-8">  
-                <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center transform hover:scale-105 transition-transform">  
-                    <div class="text-2xl font-bold text-white">5000+</div>  
-                    <div class="text-gray-400">Игр</div>  
-                </div>  
-                <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center transform hover:scale-105 transition-transform">  
-                    <div class="text-2xl font-bold text-white">₽100K</div>  
-                    <div class="text-gray-400">Бонус</div>  
-                </div>  
-                <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center transform hover:scale-105 transition-transform">  
-                    <div class="text-2xl font-bold text-white">97.8%</div>  
-                    <div class="text-gray-400">RTP</div>  
-                </div>  
-                <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center transform hover:scale-105 transition-transform">  
-                    <div class="text-2xl font-bold text-white">24/7</div>  
-                    <div class="text-gray-400">Поддержка</div>  
-                </div>  
-            </div>  
+            <!-- Десктоп меню -->
+            <div class="hidden md:flex items-center space-x-6">
+              <a href="/" class="text-gray-300 hover:text-white font-semibold">Главная</a>
+              <a href="/mirrors.html" class="text-gray-300 hover:text-white">Актуальные зеркала</a>
+              <a href="/slots.html" class="text-gray-300 hover:text-white">Игровые автоматы</a>
+              <a href="/bonuses.html" class="text-gray-300 hover:text-white">Акции и бонусы</a>
+              <a href="/registration.html" class="text-gray-300 hover:text-white">Создать аккаунт</a>
+              <a href="/download.html" class="text-gray-300 hover:text-white">Мобильное приложение</a>
+            </div>
+          </div>
 
-            <!-- CTA кнопки -->  
-            <div class="flex flex-col sm:flex-row gap-4">  
-                <a href="/registration.html"  
-                   class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#ff424d] hover:bg-[#ff2c39] transform hover:scale-105 transition-all shadow-lg shadow-[#ff424d]/20"  
-                   itemprop="significantLink">  
-                    Регистрация  
-                </a>  
-                <a href="/mirror.html"  
-                   class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#ff424d] text-base font-medium rounded-md text-white hover:bg-[#ff424d]/10 transform hover:scale-105 transition-all">  
-                    Войти  
-                </a>  
-            </div>  
-        </div>  
+          <!-- Кнопки авторизации -->
+          <div class="hidden md:flex items-center space-x-4">
+            <a href="/login.html" class="text-gray-300 hover:text-white">
+              Вход в кабинет
+            </a>
+            <a href="/registration.html" class="bg-[#ff424d] text-white px-6 py-2 rounded hover:bg-[#ff5a64] transition-colors">
+              Бесплатная регистрация
+            </a>
+          </div>
 
-        <!-- Декоративная часть -->  
-        <div class="hidden md:block relative z-10 transform hover:scale-105 transition-transform duration-500">  
-            <div class="aspect-video bg-gradient-to-br from-[#ff424d]/20 via-[#ff424d]/10 to-[#2a2a42] rounded-lg shadow-2xl">  
-                <div class="absolute inset-0 bg-[url('/api/placeholder/800/450')] rounded-lg opacity-10 mix-blend-overlay"></div>  
-            </div>  
-        </div>  
-    </div>  
+          <!-- Мобильное меню -->
+          <button class="md:hidden bg-[#2a2a42] p-2 rounded-lg" id="mobile-menu-button" aria-label="Открыть меню">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
 
-    <!-- Фоновые элементы -->  
-    <div class="absolute inset-0 bg-gradient-to-r from-[#ff424d]/10 via-[#ff424d]/5 to-transparent"></div>  
-    <div class="absolute inset-0 bg-[url('/api/placeholder/20/20')] opacity-5 mix-blend-overlay"></div>  
-</section>  
-    <!-- Current Bonuses -->  
-    <div class="bg-[#232338] rounded-xl p-8 mb-8">  
-        <h2 class="text-3xl font-bold text-white mb-6">  
-            Актуальные бонусы VAVADA  
-        </h2>  
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">  
-            <div class="bg-[#2a2a42] rounded-xl p-6">  
-                <div class="text-[#ff424d] text-xl font-bold mb-2">Приветственный пакет</div>  
-                <div class="text-2xl font-bold text-white mb-4">100% до ₽100,000</div>  
-                <p class="text-gray-400 mb-4">+ 100 фриспинов новым игрокам</p>  
-                <a href="/registration.html" class="inline-flex items-center justify-center w-full px-4 py-2 bg-[#ff424d] text-white rounded-md hover:bg-[#ff2c39] transition-colors">  
-                    Получить бонус  
-                </a>  
-            </div>  
-            <div class="bg-[#2a2a42] rounded-xl p-6">  
-                <div class="text-[#ff424d] text-xl font-bold mb-2">Кэшбэк</div>  
-                <div class="text-2xl font-bold text-white mb-4">До 10%</div>  
-                <p class="text-gray-400 mb-4">Еженедельный возврат средств</p>  
-                <a href="/bonuses.html#cashback" class="inline-flex items-center justify-center w-full px-4 py-2 bg-[#ff424d] text-white rounded-md hover:bg-[#ff2c39] transition-colors">  
-                    Подробнее  
-                </a>  
-            </div>  
-            <div class="bg-[#2a2a42] rounded-xl p-6">  
-                <div class="text-[#ff424d] text-xl font-bold mb-2">Релоад бонус</div>  
-                <div class="text-2xl font-bold text-white mb-4">50% на депозит</div>  
-                <p class="text-gray-400 mb-4">Каждую пятницу</p>  
-                <a href="/bonuses.html#reload" class="inline-flex items-center justify-center w-full px-4 py-2 bg-[#ff424d] text-white rounded-md hover:bg-[#ff2c39] transition-colors">  
-                    Подробнее  
-                </a>  
-            </div>  
-        </div>  
-    </div>  
+        <!-- Мобильное меню -->
+        <div class="md:hidden hidden" id="mobile-menu">
+          <div class="flex flex-col space-y-4 mt-4 px-2">
+            <a href="/" class="text-gray-300 hover:text-white py-2">Главная</a>
+            <a href="/mirrors.html" class="text-gray-300 hover:text-white py-2">Зеркала</a>
+            <a href="/slots.html" class="text-gray-300 hover:text-white py-2">Игровые автоматы</a>
+            <a href="/bonuses.html" class="text-gray-300 hover:text-white py-2">Бонусы</a>
+            <a href="/registration.html" class="text-gray-300 hover:text-white py-2">Регистрация</a>
+            <a href="/download.html" class="text-gray-300 hover:text-white py-2">Приложение</a>
+            <div class="pt-4 border-t border-gray-700">
+              <a href="/registration.html" class="block bg-[#ff424d] text-white px-6 py-2 rounded text-center hover:bg-[#ff5a64] transition-colors">
+                Зарегистрироваться
+              </a>
+              <a href="/login.html" class="block text-gray-300 hover:text-white text-center mt-4">
+                Войти в аккаунт
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
 
-    <!-- Main Features -->  
-    <div class="bg-[#232338] rounded-xl p-8 mb-8">  
-        <h2 class="text-3xl font-bold text-white mb-6">  
-            Преимущества VAVADA Casino  
-        </h2>  
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">  
-            <div class="flex items-start space-x-4">  
-                <div class="flex-shrink-0">  
-                    <span class="inline-flex items-center justify-center h-12 w-12 rounded-md bg-[#ff424d]">  
-                        <!-- Icon -->  
-                    </span>  
-                </div>  
-                <div>  
-                    <h3 class="text-xl font-bold text-white mb-2">Лицензионные игры</h3>  
-                    <p class="text-gray-400">Более 5000 слотов от ведущих провайдеров с официальной лицензией</p>  
-                </div>  
-            </div>  
-            <div class="flex items-start space-x-4">  
-                <div class="flex-shrink-0">  
-                    <span class="inline-flex items-center justify-center h-12 w-12 rounded-md bg-[#ff424d]">  
-                        <!-- Icon -->  
-                    </span>  
-                </div>  
-                <div>  
-                    <h3 class="text-xl font-bold text-white mb-2">Быстрые выплаты</h3>  
-                    <p class="text-gray-400">Моментальный вывод средств на карты и популярные платежные системы</p>  
-                </div>  
-            </div>  
-            <div class="flex items-start space-x-4">  
-                <div class="flex-shrink-0">  
-                    <span class="inline-flex items-center justify-center h-12 w-12 rounded-md bg-[#ff424d]">  
-                        <!-- Icon -->  
-                    </span>  
-                </div>  
-                <div>  
-                    <h3 class="text-xl font-bold text-white mb-2">Щедрые бонусы</h3>  
-                    <p class="text-gray-400">Приветственные бонусы, фриспины и регулярные акции для игроков</p>  
-                </div>  
-            </div>  
-        </div>  
-    </div>  
+      <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+          document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+      </script>
+    </header>
 
-<!-- Popular Games -->  
-<div class="bg-[#232338] rounded-xl p-4 sm:p-8 mb-6 sm:mb-8">  
-    <div class="flex justify-between items-center mb-4 sm:mb-6">  
-        <h2 class="text-xl sm:text-3xl font-bold text-white">Популярные игры</h2>  
-        <a href="/slots.html" class="text-sm sm:text-base text-[#ff424d] hover:text-[#ff2c39] transition-colors">  
-            Все игры →  
-        </a>  
-    </div>  
-    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">  
-        <!-- Sweet Bonanza -->  
-        <div class="group relative">  
-            <div class="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden bg-gradient-to-br from-pink-500 to-purple-600">  
-                <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all flex items-center justify-center">  
-                    <button class="opacity-0 group-hover:opacity-100 bg-[#ff424d] text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-md text-sm">  
-                        Играть  
-                    </button>  
-                </div>  
-            </div>  
-            <div class="mt-2">  
-                <h3 class="text-white font-medium text-sm sm:text-base">Sweet Bonanza</h3>  
-                <p class="text-gray-400 text-xs sm:text-sm">Pragmatic Play</p>  
-            </div>  
-        </div>  
+    <!-- Основной контент -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <!-- Герой-секция с микроразметкой -->
+      <section class="relative rounded-xl overflow-hidden bg-[#232338] p-8 mb-12" itemscope itemtype="https://schema.org/Casino">
+        <meta itemprop="name" content="VAVADA Casino">
+        <meta itemprop="description" content="Официальный сайт казино с лицензионными играми и быстрыми выплатами">
+        <meta itemprop="image" content="https://vavada-cis.com/images/og-mirrors.jpg">
+        
+        <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+          <meta itemprop="ratingValue" content="4.9">
+          <meta itemprop="reviewCount" content="5124">
+          <meta itemprop="bestRating" content="5">
+        </div>
 
-        <!-- Gates of Olympus -->  
-        <div class="group relative">  
-            <div class="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden bg-gradient-to-br from-blue-500 to-indigo-600">  
-                <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all flex items-center justify-center">  
-                    <button class="opacity-0 group-hover:opacity-100 bg-[#ff424d] text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-md text-sm">  
-                        Играть  
-                    </button>  
-                </div>  
-            </div>  
-            <div class="mt-2">  
-                <h3 class="text-white font-medium text-sm sm:text-base">Gates of Olympus</h3>  
-                <p class="text-gray-400 text-xs sm:text-sm">Pragmatic Play</p>  
-            </div>  
-        </div>  
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div class="relative z-10">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
+              VAVADA — официальное онлайн казино в России
+            </h1>
+            <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+              Играйте в лицензионные слоты с выплатами до 97.8%. Регистрация за 1 минуту, бонус до 100 000₽ новым игрокам.
+            </p>
+            
+            <!-- Статистика казино -->
+            <div class="grid grid-cols-2 gap-4 mb-8">
+              <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center">
+                <div class="text-2xl font-bold text-white">5000+</div>
+                <div class="text-gray-400">Лицензионных игр</div>
+              </div>
+              <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center">
+                <div class="text-2xl font-bold text-white">100К</div>
+                <div class="text-gray-400">Максимальный бонус</div>
+              </div>
+              <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center">
+                <div class="text-2xl font-bold text-white">97.8%</div>
+                <div class="text-gray-400">Средний RTP</div>
+              </div>
+              <div class="bg-[#2a2a42]/80 backdrop-blur-sm rounded-xl p-4 text-center">
+                <div class="text-2xl font-bold text-white">5 мин</div>
+                <div class="text-gray-400">Выплаты</div>
+              </div>
+            </div>
 
-        <!-- Big Bass Splash -->  
-        <div class="group relative">  
-            <div class="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden bg-gradient-to-br from-green-500 to-teal-600">  
-                <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all flex items-center justify-center">  
-                    <button class="opacity-0 group-hover:opacity-100 bg-[#ff424d] text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-md text-sm">  
-                        Играть  
-                    </button>  
-                </div>  
-            </div>  
-            <div class="mt-2">  
-                <h3 class="text-white font-medium text-sm sm:text-base">Big Bass Splash</h3>  
-                <p class="text-gray-400 text-xs sm:text-sm">Pragmatic Play</p>  
-            </div>  
-        </div>  
+            <!-- Кнопки CTA -->
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="/registration.html" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#ff424d] hover:bg-[#ff2c39] shadow-lg shadow-[#ff424d]/20">
+                Получить бонус
+              </a>
+              <a href="/slots.html" class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#ff424d] text-base font-medium rounded-md text-white hover:bg-[#ff424d]/10">
+                Играть бесплатно
+              </a>
+            </div>
+          </div>
 
-        <!-- Sugar Rush -->  
-        <div class="group relative">  
-            <div class="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden bg-gradient-to-br from-red-500 to-orange-600">  
-                <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all flex items-center justify-center">  
-                    <button class="opacity-0 group-hover:opacity-100 bg-[#ff424d] text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-md text-sm">  
-                        Играть  
-                    </button>  
-                </div>  
-            </div>  
-            <div class="mt-2">  
-                <h3 class="text-white font-medium text-sm sm:text-base">Sugar Rush</h3>  
-                <p class="text-gray-400 text-xs sm:text-sm">Pragmatic Play</p>  
-            </div>  
-        </div>  
+          <!-- Изображение -->
+          <div class="hidden md:block relative z-10">
+            <div class="aspect-video bg-gradient-to-br from-[#ff424d]/20 via-[#ff424d]/10 to-[#2a2a42] rounded-lg shadow-2xl">
+              <div class="absolute inset-0 bg-[url('/images/hero-slots.jpg')] rounded-lg opacity-20 mix-blend-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- Fruit Party -->  
-        <div class="group relative">  
-            <div class="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden bg-gradient-to-br from-yellow-500 to-red-600">  
-                <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all flex items-center justify-center">  
-                    <button class="opacity-0 group-hover:opacity-100 bg-[#ff424d] text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-md text-sm">  
-                        Играть  
-                    </button>  
-                </div>  
-            </div>  
-            <div class="mt-2">  
-                <h3 class="text-white font-medium text-sm sm:text-base">Fruit Party</h3>  
-                <p class="text-gray-400 text-xs sm:text-sm">Pragmatic Play</p>  
-            </div>  
-        </div>  
+      <!-- Текущие акции -->
+      <div class="bg-[#232338] rounded-xl p-8 mb-8">
+        <h2 class="text-3xl font-bold text-white mb-6">
+          Актуальные бонусы VAVADA 2025
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-[#2a2a42] rounded-xl p-6">
+            <div class="text-[#ff424d] text-xl font-bold mb-2">Приветственный</div>
+            <div class="text-2xl font-bold text-white mb-4">100% до 100 000₽</div>
+            <p class="text-gray-400 mb-4">+ 100 бесплатных вращений</p>
+            <a href="/registration.html" class="inline-flex items-center justify-center w-full px-4 py-2 bg-[#ff424d] text-white rounded-md hover:bg-[#ff2c39] transition-colors">
+              Получить
+            </a>
+          </div>
+          <div class="bg-[#2a2a42] rounded-xl p-6">
+            <div class="text-[#ff424d] text-xl font-bold mb-2">Кэшбэк</div>
+            <div class="text-2xl font-bold text-white mb-4">До 15%</div>
+            <p class="text-gray-400 mb-4">Возврат проигрышей</p>
+            <a href="/bonuses.html" class="inline-flex items-center justify-center w-full px-4 py-2 bg-[#ff424d] text-white rounded-md hover:bg-[#ff2c39] transition-colors">
+              Подробнее
+            </a>
+          </div>
+          <div class="bg-[#2a2a42] rounded-xl p-6">
+            <div class="text-[#ff424d] text-xl font-bold mb-2">Фриспины</div>
+            <div class="text-2xl font-bold text-white mb-4">50+ бесплатно</div>
+            <p class="text-gray-400 mb-4">За депозит от 1000₽</p>
+            <a href="/bonuses.html" class="inline-flex items-center justify-center w-full px-4 py-2 bg-[#ff424d] text-white rounded-md hover:bg-[#ff2c39] transition-colors">
+              Активировать
+            </a>
+          </div>
+        </div>
+      </div>
 
-        <!-- Book of Dead -->  
-        <div class="group relative">  
-            <div class="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden bg-gradient-to-br from-purple-500 to-blue-600">  
-                <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all flex items-center justify-center">  
-                    <button class="opacity-0 group-hover:opacity-100 bg-[#ff424d] text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-md text-sm">  
-                        Играть  
-                    </button>  
-                </div>  
-            </div>  
-            <div class="mt-2">  
-                <h3 class="text-white font-medium text-sm sm:text-base">Book of Dead</h3>  
-                <p class="text-gray-400 text-xs sm:text-sm">Play'n GO</p>  
-            </div>  
-        </div>  
-    </div>  
-</div>
+      <!-- Преимущества -->
+      <div class="bg-[#232338] rounded-xl p-8 mb-8">
+        <h2 class="text-3xl font-bold text-white mb-6">
+          Почему выбирают VAVADA?
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0">
+              <span class="inline-flex items-center justify-center h-12 w-12 rounded-md bg-[#ff424d]">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                </svg>
+              </span>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold text-white mb-2">Лицензия Curacao</h3>
+              <p class="text-gray-400">Официальная лицензия гарантирует честность игр и выплат</p>
+            </div>
+          </div>
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0">
+              <span class="inline-flex items-center justify-center h-12 w-12 rounded-md bg-[#ff424d]">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
+                </svg>
+              </span>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold text-white mb-2">Моментальные выплаты</h3>
+              <p class="text-gray-400">Вывод средств на карты и кошельки за 5-15 минут</p>
+            </div>
+          </div>
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0">
+              <span class="inline-flex items-center justify-center h-12 w-12 rounded-md bg-[#ff424d]">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+              </span>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold text-white mb-2">Высокие RTP</h3>
+              <p class="text-gray-400">Средний возврат до 97.8% в популярных слотах</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <!-- Live Winners & Stats -->  
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">  
-        <div class="bg-[#232338] rounded-xl p-6 col-span-2">  
-            <h2 class="text-2xl font-bold text-white mb-4">  
-                Последние выигрыши  
-            </h2>  
-            <div class="space-y-4">  
-                <!-- Live Winners List -->  
-                <div class="flex items-center justify-between p-3 bg-[#2a2a42] rounded">  
-                    <div class="flex items-center space-x-3">  
-                        <div class="w-8 h-8 rounded-full bg-[#ff424d]"></div>  
-                        <div>  
-                            <div class="text-white">Alex***</div>  
-                            <div class="text-sm text-gray-400">Sweet Bonanza</div>  
-                        </div>  
-                    </div>  
-                    <div class="text-[#4CAF50] font-bold">₽156,420</div>  
-                </div>  
-                <!-- Repeat for other winners -->  
-            </div>  
-        </div>  
-        <div class="bg-[#232338] rounded-xl p-6">  
-            <h2 class="text-2xl font-bold text-white mb-4">  
-                Статистика  
-            </h2>  
-            <div class="space-y-4">  
-                <div class="flex justify-between items-center">  
-                    <span class="text-gray-400">Игроков онлайн:</span>  
-                    <span class="text-white font-bold">2,847</span>  
-                </div>  
-                <div class="flex justify-between items-center">  
-                    <span class="text-gray-400">Выплачено за сегодня:</span>  
-                    <span class="text-white font-bold">₽14,576,890</span>  
-                </div>  
-                <div class="flex justify-between items-center">  
-                    <span class="text-gray-400">Джекпот:</span>  
-                    <span class="text-[#ff424d] font-bold">₽2,345,678</span>  
-                </div>  
-            </div>  
-        </div>  
-    </div>  
+      <!-- Популярные игры -->
+      <div class="bg-[#232338] rounded-xl p-8 mb-8">
+        <div class="flex justify-between items-center mb-6">
+          <h2 class="text-3xl font-bold text-white">Топ игровых автоматов</h2>
+          <a href="/slots.html" class="text-[#ff424d] hover:text-[#ff2c39] transition-colors">
+            Все слоты →
+          </a>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+          <!-- Игра 1 -->
+          <div class="group relative">
+            <div class="aspect-[3/4] rounded-lg overflow-hidden bg-gradient-to-br from-pink-500 to-purple-600">
+              <img src="/images/slots/sweet-bonanza.jpg" alt="Sweet Bonanza" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all flex items-center justify-center">
+                <button class="opacity-0 group-hover:opacity-100 bg-[#ff424d] text-white px-4 py-2 rounded-md">
+                  Играть
+                </button>
+              </div>
+            </div>
+            <div class="mt-2">
+              <h3 class="text-white font-medium">Sweet Bonanza</h3>
+              <p class="text-gray-400 text-sm">Pragmatic Play</p>
+            </div>
+          </div>
+          
+          <!-- Остальные игры аналогично -->
+        </div>
+      </div>
 
-    <!-- Why Choose Us -->  
-    <div class="bg-[#232338] rounded-xl p-8 mb-8">  
-        <h2 class="text-3xl font-bold text-white mb-6">  
-            Почему выбирают VAVADA?  
-        </h2>  
-        <div class="prose prose-invert max-w-none">  
-            <p class="mb-4">  
-                Онлайн казино VAVADA — это лицензированная игровая платформа, предоставляющая игрокам доступ к тысячам азартных игр от ведущих разработчиков. Мы работаем по официальной лицензии Curacao eGaming, что гарантирует честность игрового процесса и безопасность ваших данных.  
-            </p>  
-            <p class="mb-4">  
-                Наши преимущества:  
-            </p>  
-            <ul class="space-y-2">  
-                <li>Более 5000 лицензионных слотов от топовых провайдеров</li>  
-                <li>Щедрая бонусная программа с приветственным пакетом до 100,000₽</li>  
-                <li>Моментальные выплаты на все популярные платежные системы</li>  
-                <li>Круглосуточная поддержка на русском языке</li>  
-                <li>Регулярные турниры с крупными призовыми фондами</li>  
-            </ul>  
-        </div>  
-    </div>  
+      <!-- Отзывы -->
+      <div class="bg-[#232338] rounded-xl p-8 mb-8" itemscope itemtype="https://schema.org/Review">
+        <div class="flex justify-between items-center mb-6">
+          <h2 class="text-3xl font-bold text-white">Отзывы игроков</h2>
+          <div class="flex items-center">
+            <div class="text-[#ff424d] text-2xl font-bold" itemprop="ratingValue">4.9</div>
+            <div class="flex text-[#ff424d] ml-2">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Отзыв 1 -->
+          <div class="bg-[#2a2a42] rounded-xl p-6" itemprop="review" itemscope itemtype="https://schema.org/Review">
+            <div class="flex items-center mb-4">
+              <div class="w-10 h-10 rounded-full bg-[#ff424d] flex items-center justify-center text-white font-bold">
+                А
+              </div>
+              <div class="ml-3">
+                <div class="text-white font-medium" itemprop="author">Алексей</div>
+                <div class="text-gray-400 text-sm" itemprop="datePublished">15.05.2025</div>
+              </div>
+            </div>
+            <div class="text-[#ff424d] mb-2">★★★★★</div>
+            <p class="text-gray-300" itemprop="reviewBody">
+              Вывел 78 тысяч за 7 минут на карту. Подтверждение не требовалось. Лучшее казино по скорости выплат!
+            </p>
+          </div>
+          
+          <!-- Остальные отзывы аналогично -->
+        </div>
+      </div>
 
-<!-- Security & Licenses -->  
-<div class="bg-[#232338] rounded-xl p-4 sm:p-8">  
-    <h2 class="text-xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">  
-        Безопасность и надежность  
-    </h2>  
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8">  
-        <div>  
-            <h3 class="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4">Лицензия и сертификаты</h3>  
-            <p class="text-sm sm:text-base text-gray-400 mb-4">  
-                VAVADA работает по лицензии Curacao eGaming №8048/JAZ2014-006. Все игры проходят регулярную проверку на честность независимыми аудиторами.  
-            </p>  
-            <div class="flex flex-wrap gap-3">  
-                <!-- License Badges -->  
-                <div class="bg-[#1c1c2d] rounded-lg px-4 py-2 text-xs sm:text-sm text-gray-300 flex items-center">  
-                    <span class="w-2 h-2 bg-green-500 rounded-full mr-2"></span>  
-                    Curacao Licensed  
-                </div>  
-                <div class="bg-[#1c1c2d] rounded-lg px-4 py-2 text-xs sm:text-sm text-gray-300 flex items-center">  
-                    <span class="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>  
-                    RNG Certified  
-                </div>  
-                <div class="bg-[#1c1c2d] rounded-lg px-4 py-2 text-xs sm:text-sm text-gray-300 flex items-center">  
-                    <span class="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>  
-                    eCOGRA Approved  
-                </div>  
-            </div>  
-        </div>  
-        <div>  
-            <h3 class="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4">Безопасные платежи</h3>  
-            <p class="text-sm sm:text-base text-gray-400 mb-4">  
-                Все транзакции защищены современным SSL-шифрованием, а персональные данные хранятся в соответствии с международными стандартами безопасности.  
-            </p>  
-            <div class="flex flex-wrap gap-3">  
-                <!-- Security Badges -->  
-                <div class="bg-[#1c1c2d] rounded-lg px-4 py-2 text-xs sm:text-sm text-gray-300 flex items-center">  
-                    <span class="w-2 h-2 bg-[#ff424d] rounded-full mr-2"></span>  
-                    Visa Secure  
-                </div>  
-                <div class="bg-[#1c1c2d] rounded-lg px-4 py-2 text-xs sm:text-sm text-gray-300 flex items-center">  
-                    <span class="w-2 h-2 bg-[#ff424d] rounded-full mr-2"></span>  
-                    Mastercard SecureCode  
-                </div>  
-                <div class="bg-[#1c1c2d] rounded-lg px-4 py-2 text-xs sm:text-sm text-gray-300 flex items-center">  
-                    <span class="w-2 h-2 bg-[#ff424d] rounded-full mr-2"></span>  
-                    SSL Encryption  
-                </div>  
-                <div class="bg-[#1c1c2d] rounded-lg px-4 py-2 text-xs sm:text-sm text-gray-300 flex items-center">  
-                    <span class="w-2 h-2 bg-[#ff424d] rounded-full mr-2"></span>  
-                    PCI DSS Compliant  
-                </div>  
-            </div>  
-        </div>  
-    </div>  
-</div>  
+      <!-- FAQ -->
+      <div class="bg-[#232338] rounded-xl p-8 mb-8">
+        <h2 class="text-3xl font-bold text-white mb-6">
+          Частые вопросы
+        </h2>
+        <div class="space-y-4">
+          <div class="bg-[#2a2a42] rounded-xl p-6">
+            <h3 class="text-xl font-bold text-white mb-2">
+              Как зарегистрироваться в VAVADA?
+            </h3>
+            <p class="text-gray-400">
+              1. Нажмите "Регистрация"<br>
+              2. Заполните форму (email, пароль)<br>
+              3. Подтвердите email<br>
+              4. Пополните счет от 500₽ и получите бонус
+            </p>
+          </div>
+          <div class="bg-[#2a2a42] rounded-xl p-6">
+            <h3 class="text-xl font-bold text-white mb-2">
+              Какие методы выплат доступны?
+            </h3>
+            <p class="text-gray-400">
+              • Банковские карты (Visa, Mastercard, МИР)<br>
+              • Электронные кошельки (Qiwi, ЮMoney)<br>
+              • Криптовалюты (USDT, Bitcoin)<br>
+              Минимальная сумма вывода - 1000₽
+            </p>
+          </div>
+        </div>
+      </div>
 
-    <!-- Reviews Section -->  
-    <div class="bg-[#232338] rounded-xl p-8 mt-8">  
-        <div class="flex justify-between items-center mb-6">  
-            <h2 class="text-3xl font-bold text-white">Отзывы игроков</h2>  
-            <div class="flex items-center">  
-                <div class="text-[#ff424d] text-2xl font-bold">4.9</div>  
-                <div class="flex text-[#ff424d] ml-2">  
-                    ★★★★★  
-                </div>  
-            </div>  
-        </div>  
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">  
-            <div class="bg-[#2a2a42] rounded-xl p-6">  
-                <div class="flex items-center mb-4">  
-                    <div class="w-10 h-10 rounded-full bg-[#ff424d] flex items-center justify-center text-white font-bold">  
-                        М  
-                    </div>  
-                    <div class="ml-3">  
-                        <div class="text-white font-medium">Максим</div>  
-                        <div class="text-gray-400 text-sm">2 дня назад</div>  
-                    </div>  
-                </div>  
-                <div class="text-[#ff424d] mb-2">★★★★★</div>  
-                <p class="text-gray-300">  
-                    Быстрые выплаты, отличная поддержка. Вывел крупный выигрыш без проблем за 15 минут.  
-                </p>  
-            </div>  
-            <div class="bg-[#2a2a42] rounded-xl p-6">  
-                <div class="flex items-center mb-4">  
-                    <div class="w-10 h-10 rounded-full bg-[#ff424d] flex items-center justify-center text-white font-bold">  
-                        А  
-                    </div>  
-                    <div class="ml-3">  
-                        <div class="text-white font-medium">Анна</div>  
-                        <div class="text-gray-400 text-sm">неделю назад</div>  
-                    </div>  
-                </div>  
-                <div class="text-[#ff424d] mb-2">★★★★★</div>  
-                <p class="text-gray-300">  
-                    Отличные бонусы и большой выбор игр. Особенно нравится раздел с живыми дилерами.  
-                </p>  
-            </div>  
-            <div class="bg-[#2a2a42] rounded-xl p-6">  
-                <div class="flex items-center mb-4">  
-                    <div class="w-10 h-10 rounded-full bg-[#ff424d] flex items-center justify-center text-white font-bold">  
-                        В  
-                    </div>  
-                    <div class="ml-3">  
-                        <div class="text-white font-medium">Владимир</div>  
-                        <div class="text-gray-400 text-sm">месяц назад</div>  
-                    </div>  
-                </div>  
-                <div class="text-[#ff424d] mb-2">★★★★★</div>  
-                <p class="text-gray-300">  
-                    Играю больше года, всё честно и прозрачно. Техподдержка всегда помогает решить любые вопросы.  
-                </p>  
-            </div>  
-        </div>  
-    </div>  
-
-    <!-- FAQ Section -->  
-    <div class="bg-[#232338] rounded-xl p-8 mt-8">  
-        <h2 class="text-3xl font-bold text-white mb-6">  
-            Часто задаваемые вопросы  
-        </h2>  
-        <div class="space-y-4">  
-            <div class="bg-[#2a2a42] rounded-xl p-6">  
-                <h3 class="text-xl font-bold text-white mb-2">  
-                    Как начать играть в VAVADA?  
-                </h3>  
-                <p class="text-gray-400">  
-                    Для начала игры достаточно зарегистрироваться на сайте, пополнить счет любым удобным способом и выбрать интересующую игру из каталога.  
-                </p>  
-            </div>  
-            <div class="bg-[#2a2a42] rounded-xl p-6">  
-                <h3 class="text-xl font-bold text-white mb-2">  
-                    Какие способы вывода средств доступны?  
-                </h3>  
-                <p class="text-gray-400">  
-                    Мы поддерживаем все популярные способы вывода: банковские карты, электронные кошельки, криптовалюты. Минимальная сумма вывода - 1000₽.  
-                </p>  
-            </div>  
-            <div class="bg-[#2a2a42] rounded-xl p-6">  
-                <h3 class="text-xl font-bold text-white mb-2">  
-                    Как получить приветственный бонус?  
-                </h3>  
-                <p class="text-gray-400">  
-                    Приветственный бонус начисляется автоматически после первого депозита от 1000₽. Вы получите 100% к сумме пополнения и 100 фриспинов.  
-                </p>  
-            </div>  
-        </div>  
-        <div class="text-center mt-6">  
-            <a href="/faq.html" class="text-[#ff424d] hover:text-[#ff2c39] transition-colors">  
-                Смотреть все вопросы →  
-            </a>  
-        </div>  
-    </div>  
-
-    <!-- CTA Section -->  
-    <div class="bg-gradient-to-r from-[#ff424d] to-[#ff2c39] rounded-xl p-8 mt-8 text-center">  
-        <h2 class="text-3xl font-bold text-white mb-4">  
-            Готовы начать игру?  
-        </h2>  
-        <p class="text-white text-xl mb-6">  
-            Зарегистрируйтесь сейчас и получите приветственный бонус до 100,000₽  
-        </p>  
-        <div class="flex flex-col sm:flex-row justify-center gap-4">  
-            <a href="/registration.html" class="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-base font-medium rounded-md text-white hover:bg-white hover:text-[#ff424d] transition-colors">  
-                Регистрация  
-            </a>  
-            <a href="/bonuses.html" class="inline-flex items-center justify-center px-8 py-3 bg-white text-base font-medium rounded-md text-[#ff424d] hover:bg-gray-100 transition-colors">  
-                Все бонусы  
-            </a>  
-        </div>  
-    </div>  
-</main>
-  
+      <!-- CTA -->
+      <div class="bg-gradient-to-r from-[#ff424d] to-[#ff2c39] rounded-xl p-8 text-center">
+        <h2 class="text-3xl font-bold text-white mb-4">
+          Начните играть прямо сейчас!
+        </h2>
+        <p class="text-white text-xl mb-6">
+          Регистрация за 1 минуту + бонус до 100 000₽
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a href="/registration.html" class="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-base font-medium rounded-md text-white hover:bg-white hover:text-[#ff424d] transition-colors">
+            Зарегистрироваться
+          </a>
+          <a href="/slots.html" class="inline-flex items-center justify-center px-8 py-3 bg-white text-base font-medium rounded-md text-[#ff424d] hover:bg-gray-100 transition-colors">
+            Демо-игры
+          </a>
+        </div>
+      </div>
+    </main>
           <!-- Footer -->  
 <footer class="bg-[#1c1c2d] text-gray-300 mt-12 border-t border-[#383856]">  
     <div class="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">  
