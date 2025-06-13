@@ -702,20 +702,23 @@ module.exports = {
         `,
     },
     //ru-ru
-   {
-  id: "ru-ru",
-  filename: "ru-ru",
-  title: "Официальный сайт VAVADA (Вавада) Казино | Регистрация и бонусы 2025",
-  description: "VAVADA Casino — официальный сайт с лицензионными слотами. Регистрируйтесь и получайте бонус до 100 000₽ + фриспины. Быстрые выплаты, 5000+ игр, круглосуточная поддержка.",
-  dataLink: "https://vavada.c-wn.ru",
-  keywords: "VAVADA, Вавада казино, официальный сайт VAVADA, регистрация в казино, бонусы за регистрацию, игровые автоматы",
-  canonical: "https://vavada-cis.com/ru-ru",
-  ogImage: "https://vavada-cis.com/images/og-mirrors.jpg",
-  type: "ru-ru",
-  hreflangs: {
-    "x-default": "https://vavada-cis.com/ru-ru",
-  },
-  staticContent: `  
+    {
+      id: "ru-ru",
+      filename: "ru-ru",
+      title:
+        "Официальный сайт VAVADA (Вавада) Казино | Регистрация и бонусы 2025",
+      description:
+        "VAVADA Casino — официальный сайт с лицензионными слотами. Регистрируйтесь и получайте бонус до 100 000₽ + фриспины. Быстрые выплаты, 5000+ игр, круглосуточная поддержка.",
+      dataLink: "https://vavada.c-wn.ru",
+      keywords:
+        "VAVADA, Вавада казино, официальный сайт VAVADA, регистрация в казино, бонусы за регистрацию, игровые автоматы",
+      canonical: "https://vavada-cis.com/ru-ru",
+      ogImage: "https://vavada-cis.com/images/og-mirrors.jpg",
+      type: "ru-ru",
+      hreflangs: {
+        "x-default": "https://vavada-cis.com/ru-ru",
+      },
+      staticContent: `  
   <div class="flex flex-col min-h-screen">  
     <!-- Шапка с улучшенной семантикой -->
     <header class="bg-[#1c1c2d] rounded-lg shadow-lg p-6 mb-8" itemscope itemtype="https://schema.org/WebSite">
@@ -3972,20 +3975,23 @@ module.exports = {
         `,
     },
 
-{
-  id: "downloads",
-  filename: "downloads",
-  title: "Скачать приложение VAVADA для Android и iOS | Официальный клиент казино",
-  description: "Официальное приложение VAVADA для мобильных устройств ✓ Установка на Android и iPhone ✓ Альтернативные способы загрузки ✓ Все преимущества мобильного клиента",
-  dataLink: "https://vavada.c-wn.ru",
-  keywords: "скачать вавада, приложение вавада, vavada apk, vavada ios, мобильное казино, вавада на телефон",
-  canonical: "https://vavada-cis.com/downloads",
-  ogImage: "https://vavada-cis.com/images/og-downloads.jpg",
-  type: "downloads",
-  hreflangs: {
-    "x-default": "https://vavada-cis.com/downloads",
-  },
-  staticContent: ` 
+    {
+      id: "downloads",
+      filename: "downloads",
+      title:
+        "Скачать приложение VAVADA для Android и iOS | Официальный клиент казино",
+      description:
+        "Официальное приложение VAVADA для мобильных устройств ✓ Установка на Android и iPhone ✓ Альтернативные способы загрузки ✓ Все преимущества мобильного клиента",
+      dataLink: "https://vavada.c-wn.ru",
+      keywords:
+        "скачать вавада, приложение вавада, vavada apk, vavada ios, мобильное казино, вавада на телефон",
+      canonical: "https://vavada-cis.com/downloads",
+      ogImage: "https://vavada-cis.com/images/og-downloads.jpg",
+      type: "downloads",
+      hreflangs: {
+        "x-default": "https://vavada-cis.com/downloads",
+      },
+      staticContent: ` 
   <div class="flex flex-col min-h-screen bg-[#1a1a28]">
     <!-- Хедер -->
     <header class="bg-[#1c1c2d] shadow-lg">
