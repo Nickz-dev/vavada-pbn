@@ -53,11 +53,6 @@ module.exports = {
       chunks: ["casino"],
     }),
     new HtmlWebpackPlugin({
-      template: "public/ru-ru.html",
-      filename: "ru-ru.html",
-      chunks: ["casino"],
-    }),
-    new HtmlWebpackPlugin({
       template: "public/mirrors.html",
       filename: "mirrors.html",
       chunks: ["casino"],
@@ -93,7 +88,7 @@ module.exports = {
       chunks: ["casino"],
     }),
     new SitemapWebpackPlugin({
-      baseUrl: "https://vavada-cis.com",
+      baseUrl: "http://vavada-0011.com",
       publicDir: path.resolve(__dirname, "../public"),
       outputPath: path.resolve(__dirname, "../dist/sitemap.xml"),
       changefreq: "daily",
