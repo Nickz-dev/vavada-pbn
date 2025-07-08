@@ -4,7 +4,7 @@ const glob = require('glob');
 
 class SitemapGenerator {  
     constructor(options = {}) {  
-        this.baseUrl = options.baseUrl || 'https://vavada-cis.com';  
+        this.baseUrl = options.baseUrl || 'https://vavada-0011.com';  
         this.publicDir = options.publicDir || 'public';  
         this.outputPath = options.outputPath || 'public/sitemap.xml';  
         this.changefreq = options.changefreq || 'daily';  
